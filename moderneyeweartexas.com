@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-moderneyeweartexas.com.		 IN NS	 ns.moderneyeweartexas.com.
-ns.moderneyeweartexas.com.		 IN A	 74.208.231.34
-moderneyeweartexas.com.		 IN A	 74.208.231.34
-webmail.moderneyeweartexas.com.		 IN A	 74.208.231.34
-mail.moderneyeweartexas.com.		 IN A	 74.208.231.34
-ftp.moderneyeweartexas.com.		 IN CNAME	 moderneyeweartexas.com.
-www.moderneyeweartexas.com.		 IN CNAME	 moderneyeweartexas.com.
-*.webmail.moderneyeweartexas.com.		 IN CNAME	 moderneyeweartexas.com.
-moderneyeweartexas.com.		 IN MX	10 mail.moderneyeweartexas.com.
-moderneyeweartexas.com.		 IN TXT	 "v=spf1 +a +mx -all"
+moderneyeweartexas.com.		 		IN NS	 ns.moderneyeweartexas.com.
+ns.moderneyeweartexas.com.			IN A	 104.131.56.122
+moderneyeweartexas.com.			 	IN A	 74.208.231.34
+webmail.moderneyeweartexas.com.		IN A	 74.208.231.34
+mail.moderneyeweartexas.com.		IN A	 74.208.231.34
+ftp.moderneyeweartexas.com.		 	IN CNAME	moderneyeweartexas.com.
+www.moderneyeweartexas.com.		 	IN CNAME	moderneyeweartexas.com.
+moderneyeweartexas.com.		 		IN MX 10 	mail.moderneyeweartexas.com.
+moderneyeweartexas.com.		 		IN TXT	 	"v=spf1 +a +mx -all"
