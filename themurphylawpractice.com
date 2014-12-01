@@ -9,12 +9,11 @@ $TTL	86400
 			10800 )	; Minimum
 
 themurphylawpractice.com.		 IN NS	 ns.themurphylawpractice.com.
-ns.themurphylawpractice.com.		 IN A	 74.208.231.34
-themurphylawpractice.com.		 IN A	 74.208.231.34
-webmail.themurphylawpractice.com.		 IN A	 74.208.231.34
+ns.themurphylawpractice.com.		 IN A	 104.131.56.122
+themurphylawpractice.com.		 IN A	 104.236.51.134
+webmail.themurphylawpractice.com.	 IN A	 74.208.231.34
 mail.themurphylawpractice.com.		 IN A	 74.208.231.34
-ftp.themurphylawpractice.com.		 IN CNAME	 themurphylawpractice.com.
-*.webmail.themurphylawpractice.com.		 IN CNAME	 themurphylawpractice.com.
-www.themurphylawpractice.com.		 IN CNAME	 themurphylawpractice.com.
+ftp.themurphylawpractice.com.		 IN CNAME themurphylawpractice.com.
+www.themurphylawpractice.com.		 IN CNAME themurphylawpractice.com.
 themurphylawpractice.com.		 IN MX	10 mail.themurphylawpractice.com.
 themurphylawpractice.com.		 IN TXT	 "v=spf1 +a +mx -all"
