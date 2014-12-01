@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-iamsenor.com.		 IN NS	 ns.iamsenor.com.
-ns.iamsenor.com.		 IN A	 74.208.231.34
-webmail.iamsenor.com.		 IN A	 74.208.231.34
-mail.iamsenor.com.		 IN A	 74.208.231.34
-iamsenor.com.		 IN A	 104.236.51.134
-ftp.iamsenor.com.		 IN CNAME	 iamsenor.com.
-*.webmail.iamsenor.com.		 IN CNAME	 iamsenor.com.
-www.iamsenor.com.		 IN CNAME	 iamsenor.com.
-iamsenor.com.		 IN MX	10 mail.iamsenor.com.
-iamsenor.com.		 IN TXT	 "v=spf1 +a +mx -all"
+iamsenor.com.		 		IN NS	 ns.iamsenor.com.
+ns.iamsenor.com.	 		IN A	 104.131.56.122
+webmail.iamsenor.com.		IN A	 74.208.231.34
+mail.iamsenor.com.			IN A	 74.208.231.34
+iamsenor.com.		 		IN A	 104.236.51.134
+ftp.iamsenor.com.			IN CNAME	iamsenor.com.
+www.iamsenor.com.			IN CNAME	iamsenor.com.
+iamsenor.com.		 		IN MX 10 	mail.iamsenor.com.
+iamsenor.com.		 		IN TXT	 	"v=spf1 +a +mx -all"
