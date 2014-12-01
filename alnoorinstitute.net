@@ -9,12 +9,11 @@ $TTL	86400
 			10800 )	; Minimum
 
 alnoorinstitute.net.		 IN NS	 ns.alnoorinstitute.net.
-ns.alnoorinstitute.net.		 IN A	 74.208.231.34
-webmail.alnoorinstitute.net.		 IN A	 74.208.231.34
-mail.alnoorinstitute.net.		 IN A	 74.208.231.34
+ns.alnoorinstitute.net.		 IN A	 104.131.56.122
+webmail.alnoorinstitute.net. IN A	 74.208.231.34
+mail.alnoorinstitute.net.	 IN A	 74.208.231.34
 alnoorinstitute.net.		 IN A	 104.236.51.134
-ftp.alnoorinstitute.net.		 IN CNAME	 alnoorinstitute.net.
-*.webmail.alnoorinstitute.net.		 IN CNAME	 alnoorinstitute.net.
-www.alnoorinstitute.net.		 IN CNAME	 alnoorinstitute.net.
+ftp.alnoorinstitute.net.	 IN CNAME	 alnoorinstitute.net.
+www.alnoorinstitute.net.	 IN CNAME	 alnoorinstitute.net.
 alnoorinstitute.net.		 IN MX	10 mail.alnoorinstitute.net.
 alnoorinstitute.net.		 IN TXT	 "v=spf1 +a +mx -all"

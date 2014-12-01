@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-c3sinc.com.		 IN NS	 ns.c3sinc.com.
-ns.c3sinc.com.		 IN A	 74.208.231.34
-webmail.c3sinc.com.		 IN A	 74.208.231.34
-mail.c3sinc.com.		 IN A	 74.208.231.34
-c3sinc.com.		 IN A	 104.236.51.134
-ftp.c3sinc.com.		 IN CNAME	 c3sinc.com.
-*.webmail.c3sinc.com.		 IN CNAME	 c3sinc.com.
-www.c3sinc.com.		 IN CNAME	 c3sinc.com.
-c3sinc.com.		 IN MX	10 mail.c3sinc.com.
-c3sinc.com.		 IN TXT	 "v=spf1 +a +mx -all"
+c3sinc.com.		 		IN NS	 ns.c3sinc.com.
+ns.c3sinc.com.			IN A	 104.131.56.122
+webmail.c3sinc.com.		IN A	 74.208.231.34
+mail.c3sinc.com.		IN A	 74.208.231.34
+c3sinc.com.		 		IN A	 104.236.51.134
+ftp.c3sinc.com.		 	IN CNAME	c3sinc.com.
+www.c3sinc.com.		 	IN CNAME	c3sinc.com.
+c3sinc.com.		 		IN MX 10 	mail.c3sinc.com.
+c3sinc.com.		 		IN TXT	 	"v=spf1 +a +mx -all"

@@ -8,15 +8,14 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-abouttrading.com.		 IN NS	 ns.abouttrading.com.
-ns.abouttrading.com.		 IN A	 74.208.231.34
-abouttrading.com.		 IN A	 74.208.231.34
-webmail.abouttrading.com.		 IN A	 74.208.231.34
-mail.abouttrading.com.		 IN A	 74.208.231.34
-easternart.abouttrading.com.		 IN A	 74.208.231.34
-moshaya.abouttrading.com.		 IN A	 74.208.231.34
-test.abouttrading.com.		 IN A	 74.208.231.34
-ftp.abouttrading.com.		 IN CNAME	 abouttrading.com.
-www.abouttrading.com.		 IN CNAME	 abouttrading.com.
-*.webmail.abouttrading.com.		 IN CNAME	 abouttrading.com.
-abouttrading.com.		 IN MX	10 mail.abouttrading.com.
+abouttrading.com.		 		IN NS	 ns.abouttrading.com.
+ns.abouttrading.com.			IN A	 104.131.56.122
+abouttrading.com.		 		IN A	 74.208.231.34
+webmail.abouttrading.com.		IN A	 74.208.231.34
+mail.abouttrading.com.			IN A	 74.208.231.34
+easternart.abouttrading.com.	IN A	 74.208.231.34
+moshaya.abouttrading.com.		IN A	 74.208.231.34
+test.abouttrading.com.		 	IN A	 74.208.231.34
+ftp.abouttrading.com.		 	IN CNAME	 abouttrading.com.
+www.abouttrading.com.		 	IN CNAME	 abouttrading.com.
+abouttrading.com.		 		IN MX	10 mail.abouttrading.com.

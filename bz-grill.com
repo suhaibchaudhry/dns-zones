@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-bz-grill.com.		 IN NS	 ns.bz-grill.com.
-ns.bz-grill.com.		 IN A	 74.208.231.34
-bz-grill.com.		 IN A	 74.208.231.34
-webmail.bz-grill.com.		 IN A	 74.208.231.34
-mail.bz-grill.com.		 IN A	 74.208.231.34
-ftp.bz-grill.com.		 IN CNAME	 bz-grill.com.
-www.bz-grill.com.		 IN CNAME	 bz-grill.com.
-*.webmail.bz-grill.com.		 IN CNAME	 bz-grill.com.
-bz-grill.com.		 IN MX	10 mail.bz-grill.com.
-bz-grill.com.		 IN TXT	 "v=spf1 +a +mx -all"
+bz-grill.com.		 	IN NS	 ns.bz-grill.com.
+ns.bz-grill.com.		IN A	 104.131.56.122
+bz-grill.com.		 	IN A	 74.208.231.34
+webmail.bz-grill.com.	IN A	 74.208.231.34
+mail.bz-grill.com.		IN A	 74.208.231.34
+ftp.bz-grill.com.		IN CNAME	 bz-grill.com.
+www.bz-grill.com.		IN CNAME	 bz-grill.com.
+bz-grill.com.		 	IN MX 10 	 mail.bz-grill.com.
+bz-grill.com.		 	IN TXT	 	 "v=spf1 +a +mx -all"

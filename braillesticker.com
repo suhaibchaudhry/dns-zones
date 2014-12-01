@@ -8,11 +8,11 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-braillesticker.com.		 IN NS	 ns.braillesticker.com.
-ns.braillesticker.com.		 IN A	 74.208.243.61
-braillesticker.com.		 IN A	 74.208.243.61
-mail.braillesticker.com.		 IN A	 74.208.243.61
-ftp.braillesticker.com.		 IN CNAME	 braillesticker.com.
-www.braillesticker.com.		 IN CNAME	 braillesticker.com.
-braillesticker.com.		 IN MX	10 mail.braillesticker.com.
-braillesticker.com.		 IN TXT	 "v=spf1 +a +mx -all"
+braillesticker.com.		 	IN NS	 ns.braillesticker.com.
+ns.braillesticker.com.		IN A	 104.131.56.122
+braillesticker.com.		 	IN A	 74.208.243.61
+mail.braillesticker.com.	IN A	 74.208.243.61
+ftp.braillesticker.com.		IN CNAME	braillesticker.com.
+www.braillesticker.com.		IN CNAME	braillesticker.com.
+braillesticker.com.		 	IN MX 10 	mail.braillesticker.com.
+braillesticker.com.		 	IN TXT	 	"v=spf1 +a +mx -all"

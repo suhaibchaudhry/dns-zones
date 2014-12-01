@@ -8,11 +8,11 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-atmbraille.com.		 IN NS	 ns.atmbraille.com.
-ns.atmbraille.com.		 IN A	 74.208.243.61
-atmbraille.com.		 IN A	 74.208.243.61
-mail.atmbraille.com.		 IN A	 74.208.243.61
-ftp.atmbraille.com.		 IN CNAME	 atmbraille.com.
-www.atmbraille.com.		 IN CNAME	 atmbraille.com.
-atmbraille.com.		 IN MX	10 mail.atmbraille.com.
-atmbraille.com.		 IN TXT	 "v=spf1 +a +mx -all"
+atmbraille.com.		 	IN NS	 ns.atmbraille.com.
+ns.atmbraille.com.		IN A	 104.131.56.122
+atmbraille.com.		 	IN A	 74.208.243.61
+mail.atmbraille.com.	IN A	 74.208.243.61
+ftp.atmbraille.com.		IN CNAME	 atmbraille.com.
+www.atmbraille.com.		IN CNAME	 atmbraille.com.
+atmbraille.com.		 	IN MX	10 mail.atmbraille.com.
+atmbraille.com.		 	IN TXT	 "v=spf1 +a +mx -all"

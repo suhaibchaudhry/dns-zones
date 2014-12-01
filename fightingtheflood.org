@@ -8,13 +8,13 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-fightingtheflood.org.		 IN NS	 ns.fightingtheflood.org.
-ns.fightingtheflood.org.		 IN A	 74.208.231.34
-fightingtheflood.org.		 IN A	 74.208.231.34
-webmail.fightingtheflood.org.		 IN A	 74.208.231.34
-mail.fightingtheflood.org.		 IN A	 74.208.231.34
-ftp.fightingtheflood.org.		 IN CNAME	 fightingtheflood.org.
-*.webmail.fightingtheflood.org.		 IN CNAME	 fightingtheflood.org.
-www.fightingtheflood.org.		 IN CNAME	 fightingtheflood.org.
-fightingtheflood.org.		 IN MX	10 mail.fightingtheflood.org.
-fightingtheflood.org.		 IN TXT	 "v=spf1 +a +mx -all"
+fightingtheflood.org.		 	IN NS	 ns.fightingtheflood.org.
+ns.fightingtheflood.org.		IN A	 104.131.56.122
+fightingtheflood.org.		 	IN A	 74.208.231.34
+webmail.fightingtheflood.org.	IN A	 74.208.231.34
+mail.fightingtheflood.org.		IN A	 74.208.231.34
+ftp.fightingtheflood.org.		IN CNAME	 fightingtheflood.org.
+*.webmail.fightingtheflood.org.	IN CNAME	 fightingtheflood.org.
+www.fightingtheflood.org.		IN CNAME	 fightingtheflood.org.
+fightingtheflood.org.		 	IN MX 10 	 mail.fightingtheflood.org.
+fightingtheflood.org.		 	IN TXT	 	 "v=spf1 +a +mx -all"

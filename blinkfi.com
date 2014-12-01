@@ -8,13 +8,13 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-blinkfi.com.		 IN NS	 ns.blinkfi.com.
-ns.blinkfi.com.		 IN A	 74.208.231.34
-blinkfi.com.		 IN A	 74.208.231.34
-webmail.blinkfi.com.		 IN A	 74.208.231.34
-mail.blinkfi.com.		 IN A	 74.208.231.34
-ftp.blinkfi.com.		 IN CNAME	 blinkfi.com.
-*.webmail.blinkfi.com.		 IN CNAME	 blinkfi.com.
-www.blinkfi.com.		 IN CNAME	 blinkfi.com.
-blinkfi.com.		 IN MX	10 mail.blinkfi.com.
-blinkfi.com.		 IN TXT	 "v=spf1 +a +mx -all"
+blinkfi.com.		 	IN NS	 ns.blinkfi.com.
+ns.blinkfi.com.		 	IN A	 104.131.56.122
+blinkfi.com.		 	IN A	 74.208.231.34
+webmail.blinkfi.com.	IN A	 74.208.231.34
+mail.blinkfi.com.		IN A	 74.208.231.34
+ftp.blinkfi.com.		IN CNAME	 blinkfi.com.
+*.webmail.blinkfi.com.	IN CNAME	 blinkfi.com.
+www.blinkfi.com.		IN CNAME	 blinkfi.com.
+blinkfi.com.		 	IN MX	10 mail.blinkfi.com.
+blinkfi.com.		 	IN TXT	 "v=spf1 +a +mx -all"

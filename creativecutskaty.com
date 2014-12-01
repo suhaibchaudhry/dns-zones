@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-creativecutskaty.com.		 IN NS	 ns.creativecutskaty.com.
-ns.creativecutskaty.com.		 IN A	 74.208.231.34
-creativecutskaty.com.		 IN A	 74.208.231.34
-webmail.creativecutskaty.com.		 IN A	 74.208.231.34
-mail.creativecutskaty.com.		 IN A	 74.208.231.34
-ftp.creativecutskaty.com.		 IN CNAME	 creativecutskaty.com.
-*.webmail.creativecutskaty.com.		 IN CNAME	 creativecutskaty.com.
-www.creativecutskaty.com.		 IN CNAME	 creativecutskaty.com.
-creativecutskaty.com.		 IN MX	10 mail.creativecutskaty.com.
-creativecutskaty.com.		 IN TXT	 "v=spf1 +a +mx -all"
+creativecutskaty.com.		 	IN NS	 ns.creativecutskaty.com.
+ns.creativecutskaty.com.		IN A	 104.131.56.122
+creativecutskaty.com.		 	IN A	 74.208.231.34
+webmail.creativecutskaty.com.	IN A	 74.208.231.34
+mail.creativecutskaty.com.		IN A	 74.208.231.34
+ftp.creativecutskaty.com.		IN CNAME	 creativecutskaty.com.
+www.creativecutskaty.com.		IN CNAME	 creativecutskaty.com.
+creativecutskaty.com.		 	IN MX 10 	 mail.creativecutskaty.com.
+creativecutskaty.com.		 	IN TXT	 	 "v=spf1 +a +mx -all"

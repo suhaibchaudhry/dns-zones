@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-aaamaytag.com.		 IN NS	 ns.aaamaytag.com.
-ns.aaamaytag.com.		 IN A	 74.208.231.34
-aaamaytag.com.		 IN A	 74.208.231.34
-webmail.aaamaytag.com.		 IN A	 74.208.231.34
-mail.aaamaytag.com.		 IN A	 74.208.231.34
-ftp.aaamaytag.com.		 IN CNAME	 aaamaytag.com.
-www.aaamaytag.com.		 IN CNAME	 aaamaytag.com.
-*.webmail.aaamaytag.com.		 IN CNAME	 aaamaytag.com.
-aaamaytag.com.		 IN MX	10 mail.aaamaytag.com.
-aaamaytag.com.		 IN TXT	 "v=spf1 +a +mx -all"
+aaamaytag.com.		 	IN NS	 ns.aaamaytag.com.
+ns.aaamaytag.com.		IN A	 104.131.56.122
+aaamaytag.com.		 	IN A	 74.208.231.34
+webmail.aaamaytag.com.	IN A	 74.208.231.34
+mail.aaamaytag.com.		IN A	 74.208.231.34
+ftp.aaamaytag.com.		IN CNAME	 aaamaytag.com.
+www.aaamaytag.com.		IN CNAME	 aaamaytag.com.
+aaamaytag.com.		 	IN MX	10 mail.aaamaytag.com.
+aaamaytag.com.		 	IN TXT	 "v=spf1 +a +mx -all"

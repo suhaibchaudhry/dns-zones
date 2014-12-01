@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-divajewelryplus.com.		 IN NS	 ns.divajewelryplus.com.
-ns.divajewelryplus.com.		 IN A	 74.208.231.34
-divajewelryplus.com.		 IN A	 74.208.231.34
-webmail.divajewelryplus.com.		 IN A	 74.208.231.34
-mail.divajewelryplus.com.		 IN A	 74.208.231.34
-ftp.divajewelryplus.com.		 IN CNAME	 divajewelryplus.com.
-*.webmail.divajewelryplus.com.		 IN CNAME	 divajewelryplus.com.
-www.divajewelryplus.com.		 IN CNAME	 divajewelryplus.com.
-divajewelryplus.com.		 IN MX	10 mail.divajewelryplus.com.
-divajewelryplus.com.		 IN TXT	 "v=spf1 +a +mx -all"
+divajewelryplus.com.		 	IN NS	 ns.divajewelryplus.com.
+ns.divajewelryplus.com.		 	IN A	 104.131.56.122
+divajewelryplus.com.		 	IN A	 74.208.231.34
+webmail.divajewelryplus.com.	IN A	 74.208.231.34
+mail.divajewelryplus.com.		IN A	 74.208.231.34
+ftp.divajewelryplus.com.		IN CNAME	 divajewelryplus.com.
+www.divajewelryplus.com.		IN CNAME	 divajewelryplus.com.
+divajewelryplus.com.		 	IN MX 10 	 mail.divajewelryplus.com.
+divajewelryplus.com.		 	IN TXT	 	 "v=spf1 +a +mx -all"

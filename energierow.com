@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-energierow.com.		 IN NS	 ns.energierow.com.
-ns.energierow.com.		 IN A	 74.208.231.34
-energierow.com.		 IN A	 74.208.231.34
-webmail.energierow.com.		 IN A	 74.208.231.34
-mail.energierow.com.		 IN A	 74.208.231.34
+energierow.com.		 	 IN NS	 ns.energierow.com.
+ns.energierow.com.		 IN A	 104.131.56.122
+energierow.com.		 	 IN A	 104.236.51.134
+webmail.energierow.com.	 IN A	 74.208.231.34
+mail.energierow.com.	 IN A	 74.208.231.34
 ftp.energierow.com.		 IN CNAME	 energierow.com.
-*.webmail.energierow.com.		 IN CNAME	 energierow.com.
 www.energierow.com.		 IN CNAME	 energierow.com.
-energierow.com.		 IN MX	10 mail.energierow.com.
-energierow.com.		 IN TXT	 "v=spf1 +a +mx -all"
+energierow.com.		 	 IN MX 10 	 mail.energierow.com.
+energierow.com.		 	 IN TXT	 	 "v=spf1 +a +mx -all"

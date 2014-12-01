@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-galleriaautoservice.com.		 IN NS	 ns.galleriaautoservice.com.
-ns.galleriaautoservice.com.		 IN A	 74.208.231.34
-webmail.galleriaautoservice.com.		 IN A	 74.208.231.34
-mail.galleriaautoservice.com.		 IN A	 74.208.231.34
-galleriaautoservice.com.		 IN A	 104.236.51.134
-ftp.galleriaautoservice.com.		 IN CNAME	 galleriaautoservice.com.
-*.webmail.galleriaautoservice.com.		 IN CNAME	 galleriaautoservice.com.
-www.galleriaautoservice.com.		 IN CNAME	 galleriaautoservice.com.
-galleriaautoservice.com.		 IN MX	10 mail.galleriaautoservice.com.
-galleriaautoservice.com.		 IN TXT	 "v=spf1 +a +mx -all"
+galleriaautoservice.com.		 	IN NS	 ns.galleriaautoservice.com.
+ns.galleriaautoservice.com.		 	IN A	 104.131.56.122
+webmail.galleriaautoservice.com.	IN A	 74.208.231.34
+mail.galleriaautoservice.com.		IN A	 74.208.231.34
+galleriaautoservice.com.		 	IN A	 104.236.51.134
+ftp.galleriaautoservice.com.		IN CNAME	 galleriaautoservice.com.
+www.galleriaautoservice.com.		IN CNAME	 galleriaautoservice.com.
+galleriaautoservice.com.		 	IN MX 10 	 mail.galleriaautoservice.com.
+galleriaautoservice.com.		 	IN TXT	 	 "v=spf1 +a +mx -all"

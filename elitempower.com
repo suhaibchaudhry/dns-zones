@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-elitempower.com.		 IN NS	 ns.elitempower.com.
-ns.elitempower.com.		 IN A	 74.208.231.34
-elitempower.com.		 IN A	 74.208.231.34
-webmail.elitempower.com.		 IN A	 74.208.231.34
-mail.elitempower.com.		 IN A	 74.208.231.34
-ftp.elitempower.com.		 IN CNAME	 elitempower.com.
-www.elitempower.com.		 IN CNAME	 elitempower.com.
-*.webmail.elitempower.com.		 IN CNAME	 elitempower.com.
-elitempower.com.		 IN MX	10 mail.elitempower.com.
-elitempower.com.		 IN TXT	 "v=spf1 +a +mx -all"
+elitempower.com.		 	IN NS	 ns.elitempower.com.
+ns.elitempower.com.		 	IN A	 104.131.56.122
+elitempower.com.		 	IN A	 74.208.231.34
+webmail.elitempower.com.	IN A	 74.208.231.34
+mail.elitempower.com.		IN A	 74.208.231.34
+ftp.elitempower.com.		IN CNAME	 elitempower.com.
+www.elitempower.com.		IN CNAME	 elitempower.com.
+elitempower.com.		 	IN MX 10 	 mail.elitempower.com.
+elitempower.com.		 	IN TXT	 	 "v=spf1 +a +mx -all"

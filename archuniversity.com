@@ -8,12 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-archuniversity.com.		 IN NS	 ns.archuniversity.com.
-ns.archuniversity.com.		 IN A	 74.208.231.34
-archuniversity.com.		 IN A	 74.208.231.34
-webmail.archuniversity.com.		 IN A	 74.208.231.34
-mail.archuniversity.com.		 IN A	 74.208.231.34
-ftp.archuniversity.com.		 IN CNAME	 archuniversity.com.
-www.archuniversity.com.		 IN CNAME	 archuniversity.com.
-archuniversity.com.		 IN MX	10 mail.archuniversity.com.
-archuniversity.com.		 IN TXT	 "v=spf1 +a +mx -all"
+archuniversity.com.		 	IN NS	 ns.archuniversity.com.
+ns.archuniversity.com.		IN A	 104.131.56.122
+archuniversity.com.		 	IN A	 74.208.231.34
+webmail.archuniversity.com.	IN A	 74.208.231.34
+mail.archuniversity.com.	IN A	 74.208.231.34
+ftp.archuniversity.com.		IN CNAME	 archuniversity.com.
+www.archuniversity.com.		IN CNAME	 archuniversity.com.
+archuniversity.com.		 	IN MX	10 mail.archuniversity.com.
+archuniversity.com.		 	IN TXT	 "v=spf1 +a +mx -all"

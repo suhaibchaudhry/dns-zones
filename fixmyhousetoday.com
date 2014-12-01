@@ -8,12 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-fixmyhousetoday.com.		 IN NS	 ns.fixmyhousetoday.com.
-ns.fixmyhousetoday.com.		 IN A	 74.208.243.61
-fixmyhousetoday.com.		 IN A	 74.208.243.61
-webmail.fixmyhousetoday.com.		 IN A	 74.208.243.61
-mail.fixmyhousetoday.com.		 IN A	 74.208.243.61
-ftp.fixmyhousetoday.com.		 IN CNAME	 fixmyhousetoday.com.
-www.fixmyhousetoday.com.		 IN CNAME	 fixmyhousetoday.com.
-fixmyhousetoday.com.		 IN MX	10 mail.fixmyhousetoday.com.
-fixmyhousetoday.com.		 IN TXT	 "v=spf1 +a +mx -all"
+fixmyhousetoday.com.		 	IN NS	 ns.fixmyhousetoday.com.
+ns.fixmyhousetoday.com.		 	IN A	 104.131.56.122
+fixmyhousetoday.com.		 	IN A	 74.208.243.61
+webmail.fixmyhousetoday.com.	IN A	 74.208.243.61
+mail.fixmyhousetoday.com.		IN A	 74.208.243.61
+ftp.fixmyhousetoday.com.		IN CNAME	 fixmyhousetoday.com.
+www.fixmyhousetoday.com.		IN CNAME	 fixmyhousetoday.com.
+fixmyhousetoday.com.		 	IN MX 10 	 mail.fixmyhousetoday.com.
+fixmyhousetoday.com.		 	IN TXT	 	 "v=spf1 +a +mx -all"

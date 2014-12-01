@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-djsameer.com.		 IN NS	 ns.djsameer.com.
-ns.djsameer.com.		 IN A	 74.208.231.34
-djsameer.com.		 IN A	 74.208.231.34
-webmail.djsameer.com.		 IN A	 74.208.231.34
-mail.djsameer.com.		 IN A	 74.208.231.34
-ftp.djsameer.com.		 IN CNAME	 djsameer.com.
-*.webmail.djsameer.com.		 IN CNAME	 djsameer.com.
-www.djsameer.com.		 IN CNAME	 djsameer.com.
-djsameer.com.		 IN MX	10 mail.djsameer.com.
-djsameer.com.		 IN TXT	 "v=spf1 +a +mx -all"
+djsameer.com.		 	IN NS	 ns.djsameer.com.
+ns.djsameer.com.		IN A	 104.131.56.122
+djsameer.com.		 	IN A	 74.208.231.34
+webmail.djsameer.com.	IN A	 74.208.231.34
+mail.djsameer.com.		IN A	 74.208.231.34
+ftp.djsameer.com.		IN CNAME	 djsameer.com.
+www.djsameer.com.		IN CNAME	 djsameer.com.
+djsameer.com.		 	IN MX 10 	 mail.djsameer.com.
+djsameer.com.		 	IN TXT	 	 "v=spf1 +a +mx -all"

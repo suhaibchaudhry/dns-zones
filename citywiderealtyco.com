@@ -8,12 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-citywiderealtyco.com.		 IN NS	 ns.citywiderealtyco.com.
-ns.citywiderealtyco.com.		 IN A	 74.208.243.61
-citywiderealtyco.com.		 IN A	 74.208.243.61
-webmail.citywiderealtyco.com.		 IN A	 74.208.243.61
-mail.citywiderealtyco.com.		 IN A	 74.208.243.61
-ftp.citywiderealtyco.com.		 IN CNAME	 citywiderealtyco.com.
-www.citywiderealtyco.com.		 IN CNAME	 citywiderealtyco.com.
-citywiderealtyco.com.		 IN MX	10 mail.citywiderealtyco.com.
-citywiderealtyco.com.		 IN TXT	 "v=spf1 +a +mx -all"
+citywiderealtyco.com.		 	IN NS	 ns.citywiderealtyco.com.
+ns.citywiderealtyco.com.		IN A	 104.131.56.122
+citywiderealtyco.com.		 	IN A	 74.208.243.61
+webmail.citywiderealtyco.com.	IN A	 74.208.243.61
+mail.citywiderealtyco.com.		IN A	 74.208.243.61
+ftp.citywiderealtyco.com.		IN CNAME	 citywiderealtyco.com.
+www.citywiderealtyco.com.		IN CNAME	 citywiderealtyco.com.
+citywiderealtyco.com.		 	IN MX 10 	 mail.citywiderealtyco.com.
+citywiderealtyco.com.		 	IN TXT	 	 "v=spf1 +a +mx -all"

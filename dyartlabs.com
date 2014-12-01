@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-dyartlabs.com.		 IN NS	 ns.dyartlabs.com.
-ns.dyartlabs.com.		 IN A	 74.208.231.34
-dyartlabs.com.		 IN A	 74.208.231.34
-webmail.dyartlabs.com.		 IN A	 74.208.231.34
-mail.dyartlabs.com.		 IN A	 74.208.231.34
-ftp.dyartlabs.com.		 IN CNAME	 dyartlabs.com.
-*.webmail.dyartlabs.com.		 IN CNAME	 dyartlabs.com.
-www.dyartlabs.com.		 IN CNAME	 dyartlabs.com.
-dyartlabs.com.		 IN MX	10 mail.dyartlabs.com.
-dyartlabs.com.		 IN TXT	 "v=spf1 +a +mx -all"
+dyartlabs.com.		 		IN NS	 ns.dyartlabs.com.
+ns.dyartlabs.com.			IN A	 104.131.56.122
+dyartlabs.com.		 		IN A	 104.236.51.134
+webmail.dyartlabs.com.		IN A	 74.208.231.34
+mail.dyartlabs.com.			IN A	 74.208.231.34
+ftp.dyartlabs.com.			IN CNAME	 dyartlabs.com.
+www.dyartlabs.com.		 	IN CNAME	 dyartlabs.com.
+dyartlabs.com.		 		IN MX 10 	 mail.dyartlabs.com.
+dyartlabs.com.		 		IN TXT	 	 "v=spf1 +a +mx -all"

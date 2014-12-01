@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-fobsrus.com.		 IN NS	 ns.fobsrus.com.
-ns.fobsrus.com.		 IN A	 74.208.231.34
-fobsrus.com.		 IN A	 74.208.231.34
-webmail.fobsrus.com.		 IN A	 74.208.231.34
-mail.fobsrus.com.		 IN A	 74.208.231.34
-ftp.fobsrus.com.		 IN CNAME	 fobsrus.com.
-*.webmail.fobsrus.com.		 IN CNAME	 fobsrus.com.
-www.fobsrus.com.		 IN CNAME	 fobsrus.com.
-fobsrus.com.		 IN MX	10 mail.fobsrus.com.
-fobsrus.com.		 IN TXT	 "v=spf1 +a +mx -all"
+fobsrus.com.		 	IN NS	 ns.fobsrus.com.
+ns.fobsrus.com.		 	IN A	 104.131.56.122
+fobsrus.com.		 	IN A	 74.208.231.34
+webmail.fobsrus.com.	IN A	 74.208.231.34
+mail.fobsrus.com.		IN A	 74.208.231.34
+ftp.fobsrus.com.		IN CNAME	 fobsrus.com.
+www.fobsrus.com.		IN CNAME	 fobsrus.com.
+fobsrus.com.		 	IN MX 10 	 mail.fobsrus.com.
+fobsrus.com.		 	IN TXT	 	 "v=spf1 +a +mx -all"

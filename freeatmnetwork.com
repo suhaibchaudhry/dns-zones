@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-freeatmnetwork.com.		 IN NS	 ns.freeatmnetwork.com.
-ns.freeatmnetwork.com.		 IN A	 74.208.231.34
-freeatmnetwork.com.		 IN A	 74.208.231.34
-webmail.freeatmnetwork.com.		 IN A	 74.208.231.34
-mail.freeatmnetwork.com.		 IN A	 74.208.231.34
-ftp.freeatmnetwork.com.		 IN CNAME	 freeatmnetwork.com.
-www.freeatmnetwork.com.		 IN CNAME	 freeatmnetwork.com.
-*.webmail.freeatmnetwork.com.		 IN CNAME	 freeatmnetwork.com.
-freeatmnetwork.com.		 IN MX	10 mail.freeatmnetwork.com.
-freeatmnetwork.com.		 IN TXT	 "v=spf1 +a +mx -all"
+freeatmnetwork.com.		 		IN NS	 ns.freeatmnetwork.com.
+ns.freeatmnetwork.com.			IN A	 104.131.56.122
+freeatmnetwork.com.		 		IN A	 74.208.231.34
+webmail.freeatmnetwork.com.		IN A	 74.208.231.34
+mail.freeatmnetwork.com.		IN A	 74.208.231.34
+ftp.freeatmnetwork.com.		 	IN CNAME	 freeatmnetwork.com.
+www.freeatmnetwork.com.		 	IN CNAME	 freeatmnetwork.com.
+freeatmnetwork.com.		 		IN MX 10 	 mail.freeatmnetwork.com.
+freeatmnetwork.com.		 		IN TXT	 	 "v=spf1 +a +mx -all"

@@ -8,14 +8,13 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-ainproductions.com.		 IN NS	 ns.ainproductions.com.
-ns.ainproductions.com.		 IN A	 74.208.231.34
-ainproductions.com.		 IN A	 74.208.231.34
-webmail.ainproductions.com.		 IN A	 74.208.231.34
-mail.ainproductions.com.		 IN A	 74.208.231.34
-qau.ainproductions.com.		 IN A	 74.208.231.34
-ftp.ainproductions.com.		 IN CNAME	 ainproductions.com.
-*.webmail.ainproductions.com.		 IN CNAME	 ainproductions.com.
-www.ainproductions.com.		 IN CNAME	 ainproductions.com.
-ainproductions.com.		 IN MX	10 mail.ainproductions.com.
-ainproductions.com.		 IN TXT	 "v=spf1 +a +mx -all"
+ainproductions.com.		 	IN NS	 ns.ainproductions.com.
+ns.ainproductions.com.		IN A	 104.131.56.122
+ainproductions.com.			IN A	 74.208.231.34
+webmail.ainproductions.com.	IN A	 74.208.231.34
+mail.ainproductions.com.	IN A	 74.208.231.34
+qau.ainproductions.com.		IN A	 74.208.231.34
+ftp.ainproductions.com.		IN CNAME	 ainproductions.com.
+www.ainproductions.com.		IN CNAME	 ainproductions.com.
+ainproductions.com.		 	IN MX	10 mail.ainproductions.com.
+ainproductions.com.		 	IN TXT	 "v=spf1 +a +mx -all"

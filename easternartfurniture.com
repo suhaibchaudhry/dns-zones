@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-easternartfurniture.com.		 IN NS	 ns.easternartfurniture.com.
-ns.easternartfurniture.com.		 IN A	 74.208.231.34
-easternartfurniture.com.		 IN A	 74.208.231.34
-webmail.easternartfurniture.com.		 IN A	 74.208.231.34
-mail.easternartfurniture.com.		 IN A	 74.208.231.34
-ftp.easternartfurniture.com.		 IN CNAME	 easternartfurniture.com.
-*.webmail.easternartfurniture.com.		 IN CNAME	 easternartfurniture.com.
-www.easternartfurniture.com.		 IN CNAME	 easternartfurniture.com.
-easternartfurniture.com.		 IN MX	10 mail.easternartfurniture.com.
-easternartfurniture.com.		 IN TXT	 "v=spf1 +a +mx -all"
+easternartfurniture.com.		 	IN NS	 ns.easternartfurniture.com.
+ns.easternartfurniture.com.		 	IN A	 104.131.56.122
+easternartfurniture.com.		 	IN A	 104.236.51.134
+webmail.easternartfurniture.com.	IN A	 74.208.231.34
+mail.easternartfurniture.com.		IN A	 74.208.231.34
+ftp.easternartfurniture.com.		IN CNAME	 easternartfurniture.com.
+www.easternartfurniture.com.		IN CNAME	 easternartfurniture.com.
+easternartfurniture.com.		 	IN MX 10 	 mail.easternartfurniture.com.
+easternartfurniture.com.		 	IN TXT	 	 "v=spf1 +a +mx -all"

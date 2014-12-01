@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-furnituremarketgp.com.		 IN NS	 ns.furnituremarketgp.com.
-ns.furnituremarketgp.com.		 IN A	 74.208.231.34
-furnituremarketgp.com.		 IN A	 74.208.231.34
-webmail.furnituremarketgp.com.		 IN A	 74.208.231.34
-mail.furnituremarketgp.com.		 IN A	 74.208.231.34
-ftp.furnituremarketgp.com.		 IN CNAME	 furnituremarketgp.com.
-*.webmail.furnituremarketgp.com.		 IN CNAME	 furnituremarketgp.com.
-www.furnituremarketgp.com.		 IN CNAME	 furnituremarketgp.com.
-furnituremarketgp.com.		 IN MX	10 mail.furnituremarketgp.com.
-furnituremarketgp.com.		 IN TXT	 "v=spf1 +a +mx -all"
+furnituremarketgp.com.		 	IN NS	 ns.furnituremarketgp.com.
+ns.furnituremarketgp.com.		IN A	 104.131.56.122
+furnituremarketgp.com.		 	IN A	 74.208.231.34
+webmail.furnituremarketgp.com.	IN A	 74.208.231.34
+mail.furnituremarketgp.com.		IN A	 74.208.231.34
+ftp.furnituremarketgp.com.		IN CNAME	furnituremarketgp.com.
+www.furnituremarketgp.com.		IN CNAME	furnituremarketgp.com.
+furnituremarketgp.com.		 	IN MX 10 	mail.furnituremarketgp.com.
+furnituremarketgp.com.		 	IN TXT	 	"v=spf1 +a +mx -all"
