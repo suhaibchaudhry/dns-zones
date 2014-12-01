@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-sustainable-impact.com.		 IN NS	 ns.sustainable-impact.com.
-ns.sustainable-impact.com.		 IN A	 74.208.231.34
-sustainable-impact.com.		 IN A	 74.208.231.34
+sustainable-impact.com.		 	 IN NS	 ns.sustainable-impact.com.
+ns.sustainable-impact.com.		 IN A	 104.131.56.122
+sustainable-impact.com.		 	 IN A	 74.208.231.34
 webmail.sustainable-impact.com.		 IN A	 74.208.231.34
 mail.sustainable-impact.com.		 IN A	 74.208.231.34
 ftp.sustainable-impact.com.		 IN CNAME	 sustainable-impact.com.
-*.webmail.sustainable-impact.com.		 IN CNAME	 sustainable-impact.com.
 www.sustainable-impact.com.		 IN CNAME	 sustainable-impact.com.
-sustainable-impact.com.		 IN MX	10 mail.sustainable-impact.com.
-sustainable-impact.com.		 IN TXT	 "v=spf1 +a +mx -all"
+sustainable-impact.com.		 	 IN MX	10 mail.sustainable-impact.com.
+sustainable-impact.com.		 	 IN TXT	 "v=spf1 +a +mx -all"
