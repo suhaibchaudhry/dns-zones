@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-humanmindproject.com.		 IN NS	 ns.humanmindproject.com.
-ns.humanmindproject.com.		 IN A	 74.208.231.34
-humanmindproject.com.		 IN A	 74.208.231.34
-webmail.humanmindproject.com.		 IN A	 74.208.231.34
-mail.humanmindproject.com.		 IN A	 74.208.231.34
-ftp.humanmindproject.com.		 IN CNAME	 humanmindproject.com.
-*.webmail.humanmindproject.com.		 IN CNAME	 humanmindproject.com.
-www.humanmindproject.com.		 IN CNAME	 humanmindproject.com.
-humanmindproject.com.		 IN MX	10 mail.humanmindproject.com.
-humanmindproject.com.		 IN TXT	 "v=spf1 +a +mx -all"
+humanmindproject.com.		 		IN NS	 ns.humanmindproject.com.
+ns.humanmindproject.com.			IN A	 104.131.56.122
+humanmindproject.com.		 		IN A	 74.208.231.34
+webmail.humanmindproject.com.		IN A	 74.208.231.34
+mail.humanmindproject.com.			IN A	 74.208.231.34
+ftp.humanmindproject.com.			IN CNAME	 humanmindproject.com.
+www.humanmindproject.com.		 	IN CNAME	 humanmindproject.com.
+humanmindproject.com.		 		IN MX 10 	 mail.humanmindproject.com.
+humanmindproject.com.		 		IN TXT	 "v=spf1 +a +mx -all"
