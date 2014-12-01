@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-quickshipcellular.com.		 IN NS	 ns.quickshipcellular.com.
-ns.quickshipcellular.com.		 IN A	 74.208.202.112
-quickshipcellular.com.		 IN A	 74.208.202.112
-webmail.quickshipcellular.com.		 IN A	 74.208.202.112
-mail.quickshipcellular.com.		 IN A	 74.208.202.112
-ftp.quickshipcellular.com.		 IN CNAME	 quickshipcellular.com.
-*.webmail.quickshipcellular.com.		 IN CNAME	 quickshipcellular.com.
-www.quickshipcellular.com.		 IN CNAME	 quickshipcellular.com.
-quickshipcellular.com.		 IN MX	10 mail.quickshipcellular.com.
-quickshipcellular.com.		 IN TXT	 "v=spf1 +a +mx -all"
+quickshipcellular.com.		 		IN NS	 ns.quickshipcellular.com.
+ns.quickshipcellular.com.			IN A	 104.131.56.122
+quickshipcellular.com.		 		IN A	 74.208.202.112
+webmail.quickshipcellular.com.		IN A	 74.208.202.112
+mail.quickshipcellular.com.			IN A	 74.208.202.112
+ftp.quickshipcellular.com.			IN CNAME quickshipcellular.com.
+www.quickshipcellular.com.		 	IN CNAME quickshipcellular.com.
+quickshipcellular.com.		 		IN MX 10 mail.quickshipcellular.com.
+quickshipcellular.com.		 		IN TXT	 "v=spf1 +a +mx -all"
