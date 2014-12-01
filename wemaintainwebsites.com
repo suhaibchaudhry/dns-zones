@@ -9,12 +9,11 @@ $TTL	86400
 			10800 )	; Minimum
 
 wemaintainwebsites.com.		 IN NS	 ns.wemaintainwebsites.com.
-ns.wemaintainwebsites.com.		 IN A	 74.208.231.34
+ns.wemaintainwebsites.com.	 IN A	 104.131.56.122
 wemaintainwebsites.com.		 IN A	 74.208.231.34
-webmail.wemaintainwebsites.com.		 IN A	 74.208.231.34
-mail.wemaintainwebsites.com.		 IN A	 74.208.231.34
-ftp.wemaintainwebsites.com.		 IN CNAME	 wemaintainwebsites.com.
-www.wemaintainwebsites.com.		 IN CNAME	 wemaintainwebsites.com.
-*.webmail.wemaintainwebsites.com.		 IN CNAME	 wemaintainwebsites.com.
+webmail.wemaintainwebsites.com.	 IN A	 74.208.231.34
+mail.wemaintainwebsites.com.	 IN A	 74.208.231.34
+ftp.wemaintainwebsites.com.	 IN CNAME	 wemaintainwebsites.com.
+www.wemaintainwebsites.com.	 IN CNAME	 wemaintainwebsites.com.
 wemaintainwebsites.com.		 IN MX	10 mail.wemaintainwebsites.com.
 wemaintainwebsites.com.		 IN TXT	 "v=spf1 +a +mx -all"
