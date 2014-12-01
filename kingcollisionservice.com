@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-kingcollisionservice.com.		 IN NS	 ns.kingcollisionservice.com.
-ns.kingcollisionservice.com.		 IN A	 74.208.231.34
-kingcollisionservice.com.		 IN A	 74.208.231.34
-webmail.kingcollisionservice.com.		 IN A	 74.208.231.34
-mail.kingcollisionservice.com.		 IN A	 74.208.231.34
-ftp.kingcollisionservice.com.		 IN CNAME	 kingcollisionservice.com.
-*.webmail.kingcollisionservice.com.		 IN CNAME	 kingcollisionservice.com.
-www.kingcollisionservice.com.		 IN CNAME	 kingcollisionservice.com.
-kingcollisionservice.com.		 IN MX	10 mail.kingcollisionservice.com.
-kingcollisionservice.com.		 IN TXT	 "v=spf1 +a +mx -all"
+kingcollisionservice.com.		 		IN NS	 ns.kingcollisionservice.com.
+ns.kingcollisionservice.com.			IN A	 104.131.56.122
+kingcollisionservice.com.		 		IN A	 74.208.231.34
+webmail.kingcollisionservice.com.		IN A	 74.208.231.34
+mail.kingcollisionservice.com.			IN A	 74.208.231.34
+ftp.kingcollisionservice.com.			IN CNAME	kingcollisionservice.com.
+www.kingcollisionservice.com.			IN CNAME	kingcollisionservice.com.
+kingcollisionservice.com.		 		IN MX 10 	mail.kingcollisionservice.com.
+kingcollisionservice.com.		 		IN TXT	 	"v=spf1 +a +mx -all"
