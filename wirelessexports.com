@@ -9,17 +9,16 @@ $TTL	86400
 			10800 )	; Minimum
 
 wirelessexports.com.		 IN NS	 ns.wirelessexports.com.
-ns.wirelessexports.com.		 IN A	 74.208.98.88
+ns.wirelessexports.com.		 IN A	 104.131.56.122
 wirelessexports.com.		 IN A	 74.208.98.88
-webmail.wirelessexports.com.		 IN A	 74.208.98.88
-mail.wirelessexports.com.		 IN A	 74.208.98.88
-mypps.wirelessexports.com.		 IN A	 98.196.201.117
-ggwmob.wirelessexports.com.		 IN A	 98.196.201.117
-sehgal.wirelessexports.com.		 IN A	 98.196.201.117
-clinic.wirelessexports.com.		 IN A	 98.196.201.117
-sandbox.wirelessexports.com.		 IN A	 98.196.201.117
-ftp.wirelessexports.com.		 IN CNAME	 wirelessexports.com.
-*.webmail.wirelessexports.com.		 IN CNAME	 wirelessexports.com.
-www.wirelessexports.com.		 IN CNAME	 wirelessexports.com.
+webmail.wirelessexports.com.	 IN A	 74.208.98.88
+mail.wirelessexports.com.	 IN A	 74.208.98.88
+mypps.wirelessexports.com.	 IN A	 98.196.201.117
+ggwmob.wirelessexports.com.	 IN A	 98.196.201.117
+sehgal.wirelessexports.com.	 IN A	 98.196.201.117
+clinic.wirelessexports.com.	 IN A	 98.196.201.117
+sandbox.wirelessexports.com.	 IN A	 98.196.201.117
+ftp.wirelessexports.com.	 IN CNAME	 wirelessexports.com.
+www.wirelessexports.com.	 IN CNAME	 wirelessexports.com.
 wirelessexports.com.		 IN MX	10 mail.wirelessexports.com.
 wirelessexports.com.		 IN TXT	 "v=spf1 +a +mx -all"
