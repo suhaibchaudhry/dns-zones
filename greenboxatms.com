@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-greenboxatms.com.		 IN NS	 ns.greenboxatms.com.
-ns.greenboxatms.com.		 IN A	 74.208.231.34
-greenboxatms.com.		 IN A	 74.208.231.34
-webmail.greenboxatms.com.		 IN A	 74.208.231.34
-mail.greenboxatms.com.		 IN A	 74.208.231.34
-ftp.greenboxatms.com.		 IN CNAME	 greenboxatms.com.
-www.greenboxatms.com.		 IN CNAME	 greenboxatms.com.
-*.webmail.greenboxatms.com.		 IN CNAME	 greenboxatms.com.
-greenboxatms.com.		 IN MX	10 mail.greenboxatms.com.
-greenboxatms.com.		 IN TXT	 "v=spf1 +a +mx -all"
+greenboxatms.com.		 	IN NS	 ns.greenboxatms.com.
+ns.greenboxatms.com.		IN A	 104.131.56.122
+greenboxatms.com.		 	IN A	 74.208.231.34
+webmail.greenboxatms.com.	IN A	 74.208.231.34
+mail.greenboxatms.com.		IN A	 74.208.231.34
+ftp.greenboxatms.com.		IN CNAME	greenboxatms.com.
+www.greenboxatms.com.		IN CNAME	greenboxatms.com.
+greenboxatms.com.		 	IN MX 10 	mail.greenboxatms.com.
+greenboxatms.com.		 	IN TXT	 	"v=spf1 +a +mx -all"
