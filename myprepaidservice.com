@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-myprepaidservice.com.		 IN NS	 ns.myprepaidservice.com.
-ns.myprepaidservice.com.		 IN A	 74.208.231.34
-webmail.myprepaidservice.com.		 IN A	 74.208.231.34
-mail.myprepaidservice.com.		 IN A	 74.208.231.34
-myprepaidservice.com.		 IN A	 98.201.136.204
-ftp.myprepaidservice.com.		 IN CNAME	 myprepaidservice.com.
-*.webmail.myprepaidservice.com.		 IN CNAME	 myprepaidservice.com.
-www.myprepaidservice.com.		 IN CNAME	 myprepaidservice.com.
-myprepaidservice.com.		 IN MX	10 mail.myprepaidservice.com.
-myprepaidservice.com.		 IN TXT	 "v=spf1 +a +mx -all"
+myprepaidservice.com.		 		IN NS	 ns.myprepaidservice.com.
+ns.myprepaidservice.com.	 		IN A	 104.131.56.122
+webmail.myprepaidservice.com.		IN A	 74.208.231.34
+mail.myprepaidservice.com.			IN A	 74.208.231.34
+myprepaidservice.com.		 		IN A	 98.201.136.204
+ftp.myprepaidservice.com.			IN CNAME myprepaidservice.com.
+www.myprepaidservice.com.			IN CNAME myprepaidservice.com.
+myprepaidservice.com.		 		IN MX 10 mail.myprepaidservice.com.
+myprepaidservice.com.		 		IN TXT	 "v=spf1 +a +mx -all"

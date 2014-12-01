@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-muneers.com.		 IN NS	 ns.muneers.com.
-ns.muneers.com.		 IN A	 74.208.231.34
-muneers.com.		 IN A	 74.208.231.34
-webmail.muneers.com.		 IN A	 74.208.231.34
-mail.muneers.com.		 IN A	 74.208.231.34
-ftp.muneers.com.		 IN CNAME	 muneers.com.
-*.webmail.muneers.com.		 IN CNAME	 muneers.com.
-www.muneers.com.		 IN CNAME	 muneers.com.
-muneers.com.		 IN MX	10 mail.muneers.com.
-muneers.com.		 IN TXT	 "v=spf1 +a +mx -all"
+muneers.com.		 	IN NS	 ns.muneers.com.
+ns.muneers.com.		 	IN A	 104.131.56.122
+muneers.com.			IN A	 74.208.231.34
+webmail.muneers.com.	IN A	 74.208.231.34
+mail.muneers.com.		IN A	 74.208.231.34
+ftp.muneers.com.		IN CNAME	 muneers.com.
+www.muneers.com.		IN CNAME	 muneers.com.
+muneers.com.		 	IN MX 10 	 mail.muneers.com.
+muneers.com.		 	IN TXT	 	 "v=spf1 +a +mx -all"

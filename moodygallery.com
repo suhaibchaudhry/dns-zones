@@ -8,14 +8,13 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-moodygallery.com.		 IN NS	 ns.moodygallery.com.
-ns.moodygallery.com.		 IN A	 74.208.192.69
-webmail.moodygallery.com.		 IN A	 74.208.192.69
-mail.moodygallery.com.		 IN A	 216.55.149.40
-moodygallery.com.		 IN A	 104.236.51.134
-ftp.moodygallery.com.		 IN CNAME	 moodygallery.com.
-www.moodygallery.com.		 IN CNAME	 moodygallery.com.
-moodygallery.com.		 IN MX	10 mx1c45.carrierzone.com.
-moodygallery.com.		 IN MX	20 mx2c45.carrierzone.com.
-moodygallery.com.		 IN MX	30 mx3c45.carrierzone.com.
-moodygallery.com.		 IN MX	40 mx4c45.carrierzone.com.
+moodygallery.com.		 	IN NS	 ns.moodygallery.com.
+ns.moodygallery.com.		IN A	 104.131.56.122
+moodygallery.com.		 	IN A	 104.236.51.134
+ftp.moodygallery.com.	 	IN CNAME	 moodygallery.com.
+www.moodygallery.com.	 	IN CNAME	 moodygallery.com.
+moodygallery.com.		 	IN MX	10 mx1c45.carrierzone.com.
+moodygallery.com.		 	IN MX	20 mx2c45.carrierzone.com.
+moodygallery.com.		 	IN MX	30 mx3c45.carrierzone.com.
+moodygallery.com.		 	IN MX	40 mx4c45.carrierzone.com.
+moodygallery.com.		 	IN TXT	"v=spf1 +a +mx -all"
