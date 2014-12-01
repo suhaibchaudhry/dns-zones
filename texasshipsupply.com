@@ -9,12 +9,11 @@ $TTL	86400
 			10800 )	; Minimum
 
 texasshipsupply.com.		 IN NS	 ns.texasshipsupply.com.
-ns.texasshipsupply.com.		 IN A	 74.208.231.34
+ns.texasshipsupply.com.		 IN A	 104.131.56.122
 texasshipsupply.com.		 IN A	 74.208.231.34
-webmail.texasshipsupply.com.		 IN A	 74.208.231.34
-mail.texasshipsupply.com.		 IN A	 74.208.231.34
-ftp.texasshipsupply.com.		 IN CNAME	 texasshipsupply.com.
-www.texasshipsupply.com.		 IN CNAME	 texasshipsupply.com.
-*.webmail.texasshipsupply.com.		 IN CNAME	 texasshipsupply.com.
+webmail.texasshipsupply.com.	 IN A	 74.208.231.34
+mail.texasshipsupply.com.	 IN A	 74.208.231.34
+ftp.texasshipsupply.com.	 IN CNAME	 texasshipsupply.com.
+www.texasshipsupply.com.	 IN CNAME	 texasshipsupply.com.
 texasshipsupply.com.		 IN MX	10 mail.texasshipsupply.com.
 texasshipsupply.com.		 IN TXT	 "v=spf1 +a +mx -all"
