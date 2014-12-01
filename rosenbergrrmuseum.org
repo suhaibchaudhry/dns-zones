@@ -15,6 +15,5 @@ webmail.rosenbergrrmuseum.org.		IN A	 216.250.117.61
 mail.rosenbergrrmuseum.org.			IN A	 216.250.117.61
 ftp.rosenbergrrmuseum.org.			IN CNAME	 rosenbergrrmuseum.org.
 www.rosenbergrrmuseum.org.			IN CNAME	 rosenbergrrmuseum.org.
-*.webmail.rosenbergrrmuseum.org.	IN CNAME	 rosenbergrrmuseum.org.
 rosenbergrrmuseum.org.		 		IN MX 10 	 mail.rosenbergrrmuseum.org.
 rosenbergrrmuseum.org.		 		IN TXT	 "v=spf1 +a +mx -all"

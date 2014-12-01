@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-regencyhousekeeping.com.		 IN NS	 ns.regencyhousekeeping.com.
-ns.regencyhousekeeping.com.		 IN A	 74.208.231.34
-webmail.regencyhousekeeping.com.		 IN A	 74.208.231.34
-mail.regencyhousekeeping.com.		 IN A	 74.208.231.34
-regencyhousekeeping.com.		 IN A	 104.236.51.134
-ftp.regencyhousekeeping.com.		 IN CNAME	 regencyhousekeeping.com.
-*.webmail.regencyhousekeeping.com.		 IN CNAME	 regencyhousekeeping.com.
-www.regencyhousekeeping.com.		 IN CNAME	 regencyhousekeeping.com.
-regencyhousekeeping.com.		 IN MX	10 mail.regencyhousekeeping.com.
-regencyhousekeeping.com.		 IN TXT	 "v=spf1 +a +mx -all"
+regencyhousekeeping.com.		 	IN NS	 ns.regencyhousekeeping.com.
+ns.regencyhousekeeping.com.		 	IN A	 104.131.56.122
+webmail.regencyhousekeeping.com. 	IN A	 74.208.231.34
+mail.regencyhousekeeping.com.		IN A	 74.208.231.34
+regencyhousekeeping.com.		 	IN A	 104.236.51.134
+ftp.regencyhousekeeping.com.		IN CNAME	regencyhousekeeping.com.
+www.regencyhousekeeping.com.		IN CNAME	regencyhousekeeping.com.
+regencyhousekeeping.com.		 	IN MX 10	mail.regencyhousekeeping.com.
+regencyhousekeeping.com.		 	IN TXT		"v=spf1 +a +mx -all"
