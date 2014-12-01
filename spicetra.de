@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-spicetra.de.		 IN NS	 ns.spicetra.de.
-ns.spicetra.de.		 IN A	 74.208.231.34
-spicetra.de.		 IN A	 74.208.231.34
-webmail.spicetra.de.		 IN A	 74.208.231.34
-mail.spicetra.de.		 IN A	 74.208.231.34
-ftp.spicetra.de.		 IN CNAME	 spicetra.de.
-*.webmail.spicetra.de.		 IN CNAME	 spicetra.de.
+spicetra.de.		 	 IN NS	 ns.spicetra.de.
+ns.spicetra.de.		 	 IN A	 104.131.56.122
+spicetra.de.		   	 IN A	 74.208.231.34
+webmail.spicetra.de. 	 IN A	 74.208.231.34
+mail.spicetra.de.	 	 IN A	 74.208.231.34
+ftp.spicetra.de.	 	 IN CNAME	 spicetra.de.
 www.spicetra.de.		 IN CNAME	 spicetra.de.
-spicetra.de.		 IN MX	10 mail.spicetra.de.
-spicetra.de.		 IN TXT	 "v=spf1 +a +mx -all"
+spicetra.de.		 	 IN MX	10 mail.spicetra.de.
+spicetra.de.		 	 IN TXT	 "v=spf1 +a +mx -all"

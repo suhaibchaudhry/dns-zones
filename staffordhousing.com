@@ -9,12 +9,11 @@ $TTL	86400
 			10800 )	; Minimum
 
 staffordhousing.com.		 IN NS	 ns.staffordhousing.com.
-ns.staffordhousing.com.		 IN A	 74.208.231.34
+ns.staffordhousing.com.		 IN A	 104.131.56.122
 staffordhousing.com.		 IN A	 74.208.231.34
-webmail.staffordhousing.com.		 IN A	 74.208.231.34
-mail.staffordhousing.com.		 IN A	 74.208.231.34
-ftp.staffordhousing.com.		 IN CNAME	 staffordhousing.com.
-*.webmail.staffordhousing.com.		 IN CNAME	 staffordhousing.com.
-www.staffordhousing.com.		 IN CNAME	 staffordhousing.com.
+webmail.staffordhousing.com. IN A	 74.208.231.34
+mail.staffordhousing.com.	 IN A	 74.208.231.34
+ftp.staffordhousing.com.	 IN CNAME	 staffordhousing.com.
+www.staffordhousing.com.	 IN CNAME	 staffordhousing.com.
 staffordhousing.com.		 IN MX	10 mail.staffordhousing.com.
 staffordhousing.com.		 IN TXT	 "v=spf1 +a +mx -all"
