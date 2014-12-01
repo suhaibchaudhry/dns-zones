@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-tijostyle.com.		 IN NS	 ns.tijostyle.com.
-ns.tijostyle.com.		 IN A	 74.208.231.34
-tijostyle.com.		 IN A	 74.208.231.34
+tijostyle.com.		 	 IN NS	 ns.tijostyle.com.
+ns.tijostyle.com.		 IN A	 104.131.56.122
+tijostyle.com.		 	 IN A	 74.208.231.34
 webmail.tijostyle.com.		 IN A	 74.208.231.34
 mail.tijostyle.com.		 IN A	 74.208.231.34
 ftp.tijostyle.com.		 IN CNAME	 tijostyle.com.
-*.webmail.tijostyle.com.		 IN CNAME	 tijostyle.com.
 www.tijostyle.com.		 IN CNAME	 tijostyle.com.
-tijostyle.com.		 IN MX	10 mail.tijostyle.com.
-tijostyle.com.		 IN TXT	 "v=spf1 +a +mx -all"
+tijostyle.com.		 	 IN MX	10 mail.tijostyle.com.
+tijostyle.com.		 	 IN TXT	 "v=spf1 +a +mx -all"
