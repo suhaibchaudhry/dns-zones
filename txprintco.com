@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-txprintco.com.		 IN NS	 ns.txprintco.com.
-ns.txprintco.com.		 IN A	 74.208.231.34
-txprintco.com.		 IN A	 74.208.231.34
+txprintco.com.		 	 IN NS	 ns.txprintco.com.
+ns.txprintco.com.		 IN A	 104.131.56.122
+txprintco.com.		 	 IN A	 74.208.231.34
 webmail.txprintco.com.		 IN A	 74.208.231.34
 mail.txprintco.com.		 IN A	 74.208.231.34
 ftp.txprintco.com.		 IN CNAME	 txprintco.com.
-*.webmail.txprintco.com.		 IN CNAME	 txprintco.com.
 www.txprintco.com.		 IN CNAME	 txprintco.com.
-txprintco.com.		 IN MX	10 mail.txprintco.com.
-txprintco.com.		 IN TXT	 "v=spf1 +a +mx -all"
+txprintco.com.		  	 IN MX	10 mail.txprintco.com.
+txprintco.com.		 	 IN TXT	 "v=spf1 +a +mx -all"
