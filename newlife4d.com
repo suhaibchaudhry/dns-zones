@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-newlife4d.com.		 IN NS	 ns.newlife4d.com.
-ns.newlife4d.com.		 IN A	 74.208.231.34
-newlife4d.com.		 IN A	 74.208.231.34
-webmail.newlife4d.com.		 IN A	 74.208.231.34
-mail.newlife4d.com.		 IN A	 74.208.231.34
-ftp.newlife4d.com.		 IN CNAME	 newlife4d.com.
-*.webmail.newlife4d.com.		 IN CNAME	 newlife4d.com.
-www.newlife4d.com.		 IN CNAME	 newlife4d.com.
-newlife4d.com.		 IN MX	10 mail.newlife4d.com.
-newlife4d.com.		 IN TXT	 "v=spf1 +a +mx -all"
+newlife4d.com.		 		IN NS	 ns.newlife4d.com.
+ns.newlife4d.com.			IN A	 104.131.56.122
+newlife4d.com.		 		IN A	 74.208.231.34
+webmail.newlife4d.com.		IN A	 74.208.231.34
+mail.newlife4d.com.			IN A	 74.208.231.34
+ftp.newlife4d.com.			IN CNAME	newlife4d.com.
+www.newlife4d.com.		 	IN CNAME	newlife4d.com.
+newlife4d.com.		 		IN MX 10 	mail.newlife4d.com.
+newlife4d.com.		 		IN TXT		"v=spf1 +a +mx -all"
