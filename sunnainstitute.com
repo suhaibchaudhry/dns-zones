@@ -9,12 +9,11 @@ $TTL	86400
 			10800 )	; Minimum
 
 sunnainstitute.com.		 IN NS	 ns.sunnainstitute.com.
-ns.sunnainstitute.com.		 IN A	 74.208.231.34
+ns.sunnainstitute.com.		 IN A	 104.131.56.122
 sunnainstitute.com.		 IN A	 74.208.231.34
-webmail.sunnainstitute.com.		 IN A	 74.208.231.34
-mail.sunnainstitute.com.		 IN A	 74.208.231.34
+webmail.sunnainstitute.com.	 IN A	 74.208.231.34
+mail.sunnainstitute.com.	 IN A	 74.208.231.34
 ftp.sunnainstitute.com.		 IN CNAME	 sunnainstitute.com.
 www.sunnainstitute.com.		 IN CNAME	 sunnainstitute.com.
-*.webmail.sunnainstitute.com.		 IN CNAME	 sunnainstitute.com.
 sunnainstitute.com.		 IN MX	10 mail.sunnainstitute.com.
 sunnainstitute.com.		 IN TXT	 "v=spf1 +a +mx -all"
