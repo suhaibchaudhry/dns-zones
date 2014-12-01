@@ -8,13 +8,13 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-hairbyjose.com.		 IN NS	 ns.hairbyjose.com.
-ns.hairbyjose.com.		 IN A	 74.208.231.34
-hairbyjose.com.		 IN A	 74.208.231.34
-webmail.hairbyjose.com.		 IN A	 74.208.231.34
-mail.hairbyjose.com.		 IN A	 74.208.231.34
-ftp.hairbyjose.com.		 IN CNAME	 hairbyjose.com.
-www.hairbyjose.com.		 IN CNAME	 hairbyjose.com.
-*.webmail.hairbyjose.com.		 IN CNAME	 hairbyjose.com.
-hairbyjose.com.		 IN MX	10 mail.hairbyjose.com.
-hairbyjose.com.		 IN TXT	 "v=spf1 +a +mx -all"
+hairbyjose.com.		 		IN NS	 ns.hairbyjose.com.
+ns.hairbyjose.com.			IN A	 104.131.56.122
+hairbyjose.com.		 		IN A	 74.208.231.34
+webmail.hairbyjose.com.		IN A	 74.208.231.34
+mail.hairbyjose.com.		IN A	 74.208.231.34
+ftp.hairbyjose.com.		 	IN CNAME	 hairbyjose.com.
+www.hairbyjose.com.		 	IN CNAME	 hairbyjose.com.
+*.webmail.hairbyjose.com.	IN CNAME	 hairbyjose.com.
+hairbyjose.com.		 		IN MX 10 	 mail.hairbyjose.com.
+hairbyjose.com.		 		IN TXT	 	 "v=spf1 +a +mx -all"
