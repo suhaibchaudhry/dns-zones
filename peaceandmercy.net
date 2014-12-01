@@ -8,13 +8,12 @@ $TTL	86400
 			604800	; Expire
 			10800 )	; Minimum
 
-peaceandmercy.net.		 IN NS	 ns.peaceandmercy.net.
-ns.peaceandmercy.net.		 IN A	 74.208.231.34
-peaceandmercy.net.		 IN A	 74.208.231.34
-webmail.peaceandmercy.net.		 IN A	 74.208.231.34
-mail.peaceandmercy.net.		 IN A	 74.208.231.34
-ftp.peaceandmercy.net.		 IN CNAME	 peaceandmercy.net.
-*.webmail.peaceandmercy.net.		 IN CNAME	 peaceandmercy.net.
-www.peaceandmercy.net.		 IN CNAME	 peaceandmercy.net.
-peaceandmercy.net.		 IN MX	10 mail.peaceandmercy.net.
-peaceandmercy.net.		 IN TXT	 "v=spf1 +a +mx -all"
+peaceandmercy.net.		 		IN NS	 ns.peaceandmercy.net.
+ns.peaceandmercy.net.	 		IN A	 104.131.56.122
+peaceandmercy.net.		 		IN A	 74.208.231.34
+webmail.peaceandmercy.net.		IN A	 74.208.231.34
+mail.peaceandmercy.net.			IN A	 74.208.231.34
+ftp.peaceandmercy.net.			IN CNAME	peaceandmercy.net.
+www.peaceandmercy.net.		 	IN CNAME	peaceandmercy.net.
+peaceandmercy.net.		 		IN MX 10 	mail.peaceandmercy.net.
+peaceandmercy.net.		 		IN TXT	 	"v=spf1 +a +mx -all"
