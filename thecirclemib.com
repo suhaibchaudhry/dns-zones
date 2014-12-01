@@ -9,12 +9,11 @@ $TTL	86400
 			10800 )	; Minimum
 
 thecirclemib.com.		 IN NS	 ns.thecirclemib.com.
-ns.thecirclemib.com.		 IN A	 74.208.231.240
-webmail.thecirclemib.com.		 IN A	 74.208.231.240
+ns.thecirclemib.com.		 IN A	 104.131.56.122
+webmail.thecirclemib.com.	 IN A	 74.208.231.240
 mail.thecirclemib.com.		 IN A	 74.208.231.240
 thecirclemib.com.		 IN A	 104.236.51.134
 ftp.thecirclemib.com.		 IN CNAME	 thecirclemib.com.
-*.webmail.thecirclemib.com.		 IN CNAME	 thecirclemib.com.
 www.thecirclemib.com.		 IN CNAME	 thecirclemib.com.
 thecirclemib.com.		 IN MX	10 mail.thecirclemib.com.
 thecirclemib.com.		 IN TXT	 "v=spf1 +a +mx -all"
