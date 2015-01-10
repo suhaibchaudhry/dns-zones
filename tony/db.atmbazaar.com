@@ -14,7 +14,7 @@ $TTL 1800
 @		 IN   NS ns2.dadesigners.com.
 
 @		 IN   A 104.131.50.207
-ns1 		 IN   A 104.131.56.122
+ns1      IN   A 104.131.56.122
 ns2		 IN   A 104.236.51.134
 
 www		 IN   CNAME atmbazaar.com.
@@ -29,4 +29,3 @@ dkim._domainkey	 3600 TXT (
   "dFnfVEW82SsoMnr+qvZjj8Tc44xm7p5ejOBkxL39NOUE3pwjxZGV4UBvNDBweFq4"
   "m53SaaennxOqnXgjYRS6MrH8D5u4jZWzdHsqVsNx0jjjiIWzFMmh/xc7YC9LqX0Q"
   "5z20UB2oYQG5iupiiwIDAQAB")
-
