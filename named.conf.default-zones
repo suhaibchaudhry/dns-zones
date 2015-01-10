@@ -1,0 +1,467 @@
+// prime the server with knowledge of the root servers
+zone "." {
+	type hint;
+	file "/etc/bind/db.root";
+};
+
+// be authoritative for the localhost forward and reverse zones, and for
+// broadcast zones as per RFC 1912
+
+zone "localhost" {
+	type master;
+	file "/etc/bind/db.local";
+};
+
+zone "127.in-addr.arpa" {
+	type master;
+	file "/etc/bind/db.127";
+};
+
+zone "0.in-addr.arpa" {
+	type master;
+	file "/etc/bind/db.0";
+};
+
+zone "255.in-addr.arpa" {
+	type master;
+	file "/etc/bind/db.255";
+};
+
+//Corporate Portals
+zone "dadesigners.com" {
+    type master;
+    file "/etc/bind/zones/db.dadesigners.com";
+};
+
+zone "uitoux.com" {
+        type master;
+        file "/etc/bind/zones/db.uitoux.com";
+};
+
+//Tony's Sites
+zone "atmbraille.com" {
+        type master;
+        file "/etc/bind/zones/tony/db.atmbraille.com";
+};
+
+zone "atmbraillesticker.com" {
+        type master;
+        file "/etc/bind/zones/tony/db.atmbraillesticker.com";
+};
+
+zone "braillesticker.com" {
+        type master;
+        file "/etc/bind/zones/tony/db.braillesticker.com";
+};
+
+zone "citywideatm.com" {
+        type master;
+        file "/etc/bind/zones/tony/db.citywideatm.com";
+};
+
+zone "cwatm.com" {
+        type master;
+        file "/etc/bind/zones/tony/db.cwatm.com";
+};
+
+zone "greenboxatm.com" {
+        type master;
+        file "/etc/bind/zones/tony/db.greenboxatm.com";
+};
+
+zone "greenboxatms.com" {
+        type master;
+        file "/etc/bind/zones/tony/db.greenboxatms.com";
+};
+
+zone "fixmyhousetoday.com" {
+	type master;
+	file "/etc/bind/zones/tony/db.fixmyhousetoday.com";
+};
+
+zone "tonyshomesforrent.com" {
+        type master;
+        file "/etc/bind/zones/tony/db.tonyshomesforrent.com";
+};
+
+zone "citywiderealtyco.com" {
+        type master;
+        file "/etc/bind/zones/tony/db.citywiderealtyco.com";
+};
+
+zone "atmbazaar.com" {
+        type master;
+        file "/etc/bind/zones/tony/db.atmbazaar.com";
+};
+
+zone "atmpitbull.com" {
+        type master;
+        file "/etc/bind/zones/tony/db.atmpitbull.com";
+};
+
+//Adjusted sites
+zone "medistarproviderservices.com" {
+	type master;
+	file "/etc/bind/zones/db.medistarproviderservices.com";
+};
+
+zone "sehgaldiamonds.com" {
+    type master;
+    file "/etc/bind/zones/db.sehgaldiamonds.com";
+};
+
+zone "c3sinc.com" {
+    type master;
+    file "/etc/bind/zones/db.c3sinc.com";
+};
+
+zone "empowerrxpharmacy.com" {
+    type master;
+    file "/etc/bind/zones/db.empowerrxpharmacy.com";
+};
+
+zone "abouttrading.com" {
+    type master;
+    file "/etc/bind/zones/db.abouttrading.com";
+};
+
+zone "iamsenor.com" {
+        type master;
+        file "/etc/bind/zones/db.iamsenor.com";
+};
+
+//Previous Records
+zone "aaamaytag.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/aaamaytag.com";
+};
+
+zone "adammasjid.org" {
+	type master;
+	file "/etc/bind/zones/previous_records/adammasjid.org";
+};
+
+zone "ainproductions.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/ainproductions.com";
+};
+
+zone "alnoorinstitute.net" {
+	type master;
+	file "/etc/bind/zones/previous_records/alnoorinstitute.net";
+};
+
+zone "andersoncanyon.net" {
+	type master;
+	file "/etc/bind/zones/previous_records/andersoncanyon.net";
+};
+
+zone "archuniversity.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/archuniversity.com";
+};
+
+zone "blinkfi.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/blinkfi.com";
+};
+
+zone "bz-grill.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/bz-grill.com";
+};
+
+zone "carepointus.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/carepointus.com";
+};
+
+zone "cotel.co" {
+	type master;
+	file "/etc/bind/zones/previous_records/cotel.co";
+};
+
+zone "creativecutskaty.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/creativecutskaty.com";
+};
+
+zone "desivibes2013.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/desivibes2013.com";
+};
+
+zone "divajewelryplus.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/divajewelryplus.com";
+};
+
+zone "djsameer.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/djsameer.com";
+};
+
+zone "dyartlabs.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/dyartlabs.com";
+};
+
+zone "easternartfurniture.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/easternartfurniture.com";
+};
+
+zone "elitempower.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/elitempower.com";
+};
+
+zone "energierow.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/energierow.com";
+};
+
+zone "eyewearshop.net" {
+	type master;
+	file "/etc/bind/zones/previous_records/eyewearshop.net";
+};
+
+zone "ezopticals.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/ezopticals.com";
+};
+
+zone "fightingtheflood.org" {
+	type master;
+	file "/etc/bind/zones/previous_records/fightingtheflood.org";
+};
+
+zone "fobsrus.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/fobsrus.com";
+};
+
+zone "freeatmnetwork.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/freeatmnetwork.com";
+};
+
+zone "furnituremarketgp.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/furnituremarketgp.com";
+};
+
+zone "galleriaautocollision.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/galleriaautocollision.com";
+};
+
+zone "galleriaautoservice.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/galleriaautoservice.com";
+};
+
+zone "greensmartenergysolutions.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/greensmartenergysolutions.com";
+};
+
+zone "hairbyjose.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/hairbyjose.com";
+};
+
+zone "halaljones.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/halaljones.com";
+};
+
+zone "houstoncitytours.us" {
+	type master;
+	file "/etc/bind/zones/previous_records/houstoncitytours.us";
+};
+
+zone "humanmindproject.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/humanmindproject.com";
+};
+
+zone "kingcollisionservice.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/kingcollisionservice.com";
+};
+
+zone "mcmurtreygallery.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/mcmurtreygallery.com";
+};
+
+zone "mdanish.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/mdanish.com";
+};
+
+zone "medistarhealthcare.net" {
+	type master;
+	file "/etc/bind/zones/previous_records/medistarhealthcare.net";
+};
+
+zone "meem2.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/meem2.com";
+};
+
+zone "moderneyeweartexas.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/moderneyeweartexas.com";
+};
+
+zone "moodygallery.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/moodygallery.com";
+};
+
+zone "muneers.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/muneers.com";
+};
+
+zone "myprepaidservice.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/myprepaidservice.com";
+};
+
+zone "newlife4d.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/newlife4d.com";
+};
+
+zone "peaceandmercy.net" {
+	type master;
+	file "/etc/bind/zones/previous_records/peaceandmercy.net";
+};
+
+zone "qsource.us" {
+	type master;
+	file "/etc/bind/zones/previous_records/qsource.us";
+};
+
+zone "quickshipcellular.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/quickshipcellular.com";
+};
+
+zone "regencyhousekeeping.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/regencyhousekeeping.com";
+};
+
+zone "rosenbergrrmuseum.org" {
+	type master;
+	file "/etc/bind/zones/previous_records/rosenbergrrmuseum.org";
+};
+
+zone "spicetra.de" {
+	type master;
+	file "/etc/bind/zones/previous_records/spicetra.de";
+};
+
+zone "staffordhousing.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/staffordhousing.com";
+};
+
+zone "sunnainstitute.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/sunnainstitute.com";
+};
+
+zone "sustainable-impact.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/sustainable-impact.com";
+};
+
+zone "texascarpets.net" {
+	type master;
+	file "/etc/bind/zones/previous_records/texascarpets.net";
+};
+
+zone "texasshipsupply.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/texasshipsupply.com";
+};
+
+zone "thecirclemib.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/thecirclemib.com";
+};
+
+zone "themurphylawpractice.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/themurphylawpractice.com";
+};
+
+zone "theperfecttouchlinens.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/theperfecttouchlinens.com";
+};
+
+zone "thezspa.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/thezspa.com";
+};
+
+zone "tijostyle.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/tijostyle.com";
+};
+
+zone "txprintco.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/txprintco.com";
+};
+
+zone "txwlc.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/txwlc.com";
+};
+
+zone "uaepap.org" {
+	type master;
+	file "/etc/bind/zones/previous_records/uaepap.org";
+};
+
+zone "unlockbazaar.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/unlockbazaar.com";
+};
+
+zone "wemaintainwebsites.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/wemaintainwebsites.com";
+};
+
+zone "wirelessexports.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/wirelessexports.com";
+};
+
+zone "wirelessgalaxy.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/wirelessgalaxy.com";
+};
+
+zone "wirelesstienda.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/wirelesstienda.com";
+};
+
+zone "woodbridge-agent.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/woodbridge-agent.com";
+};
+
+zone "ydkml.com" {
+	type master;
+	file "/etc/bind/zones/previous_records/ydkml.com";
+};
