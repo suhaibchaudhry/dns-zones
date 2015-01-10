@@ -135,6 +135,11 @@ zone "moodygallery.com" {
         file "/etc/bind/zones/db.moodygallery.com";
 };
 
+zone "mcmurtreygallery.com" {
+        type master;
+        file "/etc/bind/zones/db.mcmurtreygallery.com";
+};
+
 //Previous Records
 zone "aaamaytag.com" {
 	type master;
@@ -294,11 +299,6 @@ zone "humanmindproject.com" {
 zone "kingcollisionservice.com" {
 	type master;
 	file "/etc/bind/zones/previous_records/kingcollisionservice.com";
-};
-
-zone "mcmurtreygallery.com" {
-	type master;
-	file "/etc/bind/zones/previous_records/mcmurtreygallery.com";
 };
 
 zone "mdanish.com" {
