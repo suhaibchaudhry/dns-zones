@@ -130,6 +130,11 @@ zone "iamsenor.com" {
         file "/etc/bind/zones/db.iamsenor.com";
 };
 
+zone "moodygallery.com" {
+        type master;
+        file "/etc/bind/zones/db.moodygallery.com";
+};
+
 //Previous Records
 zone "aaamaytag.com" {
 	type master;
@@ -314,11 +319,6 @@ zone "meem2.com" {
 zone "moderneyeweartexas.com" {
 	type master;
 	file "/etc/bind/zones/previous_records/moderneyeweartexas.com";
-};
-
-zone "moodygallery.com" {
-	type master;
-	file "/etc/bind/zones/previous_records/moodygallery.com";
 };
 
 zone "muneers.com" {
