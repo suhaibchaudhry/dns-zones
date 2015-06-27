@@ -2,7 +2,7 @@ $ORIGIN cwatm.com.
 $TTL 1800
 
 @		 IN   SOA ns1 postmaster.dadesigners.com. (
-		  	 95 	   	; Serial
+		  	 100 	   	; Serial
 			 604800	   	; Refresh
 			 86400	   	; Retry
 			 2419200   	; Expire
@@ -18,10 +18,12 @@ ns1 		 IN   A 104.131.56.122
 ns2		 IN   A 104.236.51.134
 
 www		 IN   CNAME cwatm.com.
+mail		 IN   CNAME mail.cwatm.com.netsolmail.net.
+smtp		 IN   CNAME smtp.cwatm.com.netsolmail.net.
 
-@		 IN   MX 10 mx.atmpitbull.com.
+@		 IN   MX 10 inbound.cwatm.com.netsolmail.net.
 
-@		 3600 TXT "v=spf1 +a +mx ~all"
+@		 3600 TXT "v=spf1 +a +mx include:mx.atmpitbull.com ~all"
 ; key#6, domain cwatm.com, /var/lib/dkim/cwatm.com.pem
 dkim._domainkey	 3600 TXT (
   "v=DKIM1; p="

@@ -2,7 +2,7 @@ $ORIGIN atmpitbull.com.
 $TTL 1800
 
 @		 IN   SOA ns1 postmaster.dadesigners.com. (
-		  	 100 	   	; Serial
+		  	 1425016366 	; Serial
 			 604800	   	; Refresh
 			 86400	   	; Retry
 			 2419200   	; Expire
@@ -17,7 +17,7 @@ $TTL 1800
 ns1 		 IN   A 104.131.56.122
 ns2		 IN   A 104.236.51.134
 portal		 IN   A 104.131.50.207
-mx		 IN   A 128.199.87.162
+mx		 IN   A 128.199.74.202
 
 www		 IN   CNAME atmpitbull.com.
 webmail 	 IN   CNAME mx.atmpitbull.com.

@@ -1,12 +1,12 @@
 $ORIGIN dadesigners.com.
 $TTL 1800
 
-@		 IN   SOA ns1 postmaster.dadesigners.com. (
-		  	 50 	   ; Serial
-			 604800	   ; Refresh
-			 86400	   ; Retry
-			 2419200	   ; Expire
-			 1800 )     ; Negative Cache TTL
+@		 IN   SOA ns1.digitalocean.com. hostmaster.dadesigners.com. (
+		  	 1417804393  ; Serial
+			 10800	     ; Refresh
+			 3600	     ; Retry
+			 604800      ; Expire
+			 1800 )      ; Negative Cache TTL
 
 @		 IN   NS ns1.dadesigners.com.
 @		 IN   NS ns2.dadesigners.com.
@@ -17,7 +17,6 @@ $TTL 1800
 @		 IN   A 104.236.51.134
 ns1 		 IN   A 104.131.56.122
 ns2 		 IN   A 104.236.51.134
-mx		 IN   A 104.236.167.30
 
 www		 IN   CNAME dadesigners.com.
 email		 IN   CNAME mailgun.org.

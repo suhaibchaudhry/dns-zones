@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.staffordhousing.com. asad.dadesigners.com. (
-			1311724584	; Serial
+			1411724584	; Serial
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire
@@ -11,6 +11,7 @@ $TTL	86400
 staffordhousing.com.		 IN NS	 ns.staffordhousing.com.
 ns.staffordhousing.com.		 IN A	 104.131.56.122
 staffordhousing.com.		 IN A	 104.131.243.49
+dev.staffordhousing.com.	 IN A 	 104.131.243.49
 webmail.staffordhousing.com. IN A	 74.208.231.34
 mail.staffordhousing.com.	 IN A	 74.208.231.34
 ftp.staffordhousing.com.	 IN CNAME	 staffordhousing.com.

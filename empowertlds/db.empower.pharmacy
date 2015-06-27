@@ -1,0 +1,34 @@
+$ORIGIN empower.pharmacy.
+$TTL 1800
+
+@		 IN   SOA ns1 snoorian.empower.pharmacy. (
+		  	 1927416099 	   	; Serial
+			 604800	   	; Refresh
+			 86400	   	; Retry
+			 2419200   	; Expire
+			 1800 )    	; Negative Cache TTL
+
+@		 IN   NS ns1.dadesigners.com.
+@		 IN   NS ns2.dadesigners.com.
+@		 IN   NS ns1
+@		 IN   NS ns2
+
+@		 IN   A 104.131.86.68
+ns1 		 IN   A 104.131.56.122
+ns2		 IN   A 104.236.51.134
+
+www		 IN   CNAME empower.pharmacy.
+
+; Google Portion
+
+@ 		 3600 IN MX 1 ASPMX.L.GOOGLE.COM.
+@ 		 3600 IN MX 5 ALT1.ASPMX.L.GOOGLE.COM.
+@ 		 3600 IN MX 5 ALT2.ASPMX.L.GOOGLE.COM.
+@ 		 3600 IN MX 10 ASPMX2.GOOGLEMAIL.COM.
+@ 		 3600 IN MX 10 ASPMX3.GOOGLEMAIL.COM.
+calendar 	 3600 IN CNAME ghs.googlehosted.com.
+webmail 	 3600 IN CNAME ghs.googlehosted.com.
+mail 		 3600 IN CNAME ghs.googlehosted.com.
+hgn7zbfs4sht 	 3600 IN CNAME gv-b36bugszphngb2.dv.googlehosted.com
+@ 		 3600 IN TXT   google-site-verification=cKBU87yOIqvSUr-9jOsmTImTanRie7lqlgbg50jcsoM
+@		 3600 IN TXT   google-site-verification=HUQ9pHR261E9cgRZtaFt4htTKyqzB12GXB2gHptJpnA

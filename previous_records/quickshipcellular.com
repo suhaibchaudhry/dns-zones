@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.quickshipcellular.com. asad.dadesigners.com. (
-			1368047106	; Serial
+			1368999099	; Serial
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire
@@ -10,10 +10,5 @@ $TTL	86400
 
 quickshipcellular.com.		 		IN NS	 ns.quickshipcellular.com.
 ns.quickshipcellular.com.			IN A	 104.131.56.122
-quickshipcellular.com.		 		IN A	 74.208.202.112
-webmail.quickshipcellular.com.		IN A	 74.208.202.112
-mail.quickshipcellular.com.			IN A	 74.208.202.112
-ftp.quickshipcellular.com.			IN CNAME quickshipcellular.com.
+quickshipcellular.com.		 		IN A	 104.236.51.134
 www.quickshipcellular.com.		 	IN CNAME quickshipcellular.com.
-quickshipcellular.com.		 		IN MX 10 mail.quickshipcellular.com.
-quickshipcellular.com.		 		IN TXT	 "v=spf1 +a +mx -all"
