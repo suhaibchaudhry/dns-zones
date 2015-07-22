@@ -2,14 +2,16 @@ $ORIGIN empowerpharma.com.
 $TTL 1800
 
 @		 IN   SOA ns1 postmaster.dadesigners.com. (
-		  	 19140 	   	; Serial
+		  	 29140 	   	; Serial
 			 604800	   	; Refresh
 			 86400	   	; Retry
 			 2419200   	; Expire
 			 1800 )    	; Negative Cache TTL
 
-@		 IN   NS ns1.empowerpharma.com.
-@		 IN   NS ns2.empowerpharma.com.
+@		 IN   NS ns1
+@		 IN   NS ns2
+@		 IN   NS ns1.dadesigners.com.
+@		 IN   NS ns2.dadesigners.com.
 
 ns1 		 IN   A 104.131.56.122
 ns2		 IN   A 104.236.51.134

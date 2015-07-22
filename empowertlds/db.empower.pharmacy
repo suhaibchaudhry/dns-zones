@@ -2,7 +2,7 @@ $ORIGIN empower.pharmacy.
 $TTL 1800
 
 @		 IN   SOA ns1 snoorian.empower.pharmacy. (
-		  	 6999958299 	   	; Serial
+		  	 299292 	   	; Serial
 			 604800	   	; Refresh
 			 86400	   	; Retry
 			 2419200   	; Expire
