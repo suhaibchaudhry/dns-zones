@@ -64,6 +64,16 @@ zone "citywideatm.com" {
         file "/etc/bind/zones/tony/db.citywideatm.com";
 };
 
+zone "citywideremodeling.com" {
+        type master;
+        file "/etc/bind/zones/tony/db.citywideremodeling.com";
+};
+
+zone "citywidequalityhomes.com" {
+        type master;
+        file "/etc/bind/zones/tony/db.citywidequalityhomes.com";
+};
+
 zone "cwatm.com" {
         type master;
         file "/etc/bind/zones/tony/db.cwatm.com";
@@ -209,6 +219,11 @@ zone "empowerrxpharmacy.com" {
 zone "empower.pharmacy" {
     type master;
     file "/etc/bind/zones/empowertlds/db.empower.pharmacy";
+};
+
+zone "empowerpharma.com" {
+    type master;
+    file "/etc/bind/zones/empowertlds/db.empowerpharma.com";
 };
 
 zone "abouttrading.com" {

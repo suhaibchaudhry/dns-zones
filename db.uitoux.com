@@ -2,7 +2,7 @@ $ORIGIN uitoux.com.
 $TTL 1800
 
 @		 IN   SOA ns1 postmaster.dadesigners.com. (
-		  	 800 	   	; Serial
+		  	 10000 	   	; Serial
 			 604800	   	; Refresh
 			 86400	   	; Retry
 			 2419200   	; Expire
@@ -22,6 +22,7 @@ ranjith		 IN   A 104.236.196.58
 pinnacle	 IN   A 104.236.196.58
 pharma		 IN   A 104.131.86.68
 zmedispa	 IN   A 104.236.196.58
+sunset		 IN   A 107.170.202.168
 
 www		 IN   CNAME uitoux.com.
 email		 IN   CNAME mailgun.org.
