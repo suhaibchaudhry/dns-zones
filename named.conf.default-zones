@@ -437,6 +437,11 @@ zone "staffordhousing.com" {
 	file "/etc/bind/zones/previous_records/staffordhousing.com";
 };
 
+zone "staffordcorporatehousing.com" {
+        type master;
+        file "/etc/bind/zones/db.staffordcorporatehousing.com";
+};
+
 zone "sustainable-impact.com" {
 	type master;
 	file "/etc/bind/zones/db.sustainableimpact.com";
