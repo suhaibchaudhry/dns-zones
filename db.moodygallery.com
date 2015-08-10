@@ -3,7 +3,7 @@ $ORIGIN moodygallery.com.
 $TTL	86400
 
 @	IN	SOA	ns1 adrian.moodygallery.com. (
-			1417273248	; Serial
+			1417273258	; Serial
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire
@@ -17,7 +17,7 @@ $TTL	86400
 ns1		        IN A	 104.131.56.122
 ns2			IN A	 104.236.51.134
 
-@		 	IN A	 104.236.51.134
+@		 	IN A	 45.55.153.14
 
 www	 	        IN CNAME	 moodygallery.com.
 
