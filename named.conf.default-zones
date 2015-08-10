@@ -175,6 +175,11 @@ zone "wemaintainwebsites.com" {
         file "/etc/bind/zones/daseo/db.wemaintainwebsites.com";
 };
 
+zone "zmedclinic.com" {
+        type master;
+        file "/etc/bind/zones/db.zmedclinic.com";
+};
+
 zone "sunsetspace.com" {
 	type master;
 	file "/etc/bind/zones/db.sunsetspace.com";
