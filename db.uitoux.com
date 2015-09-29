@@ -2,7 +2,7 @@ $ORIGIN uitoux.com.
 $TTL 1800
 
 @		 IN   SOA ns1 postmaster.dadesigners.com. (
-		  	 12222 	   	; Serial
+		  	 13333 	   	; Serial
 			 604800	   	; Refresh
 			 86400	   	; Retry
 			 2419200   	; Expire
@@ -25,6 +25,7 @@ zmedispa	 IN   A 104.236.196.58
 sunset		 IN   A 107.170.202.168
 moody		 IN   A 45.55.153.14
 profone		 IN   A 104.236.196.58
+supply		 IN   A 104.236.196.58
 
 www		 IN   CNAME uitoux.com.
 email		 IN   CNAME mailgun.org.
