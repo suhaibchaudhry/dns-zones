@@ -190,6 +190,11 @@ zone "ranjithramasamy.com" {
 	file "/etc/bind/zones/db.ranjithramasamy.com";
 };
 
+zone "jesus2jesus.com" {
+        type master;
+        file "/etc/bind/zones/db.jesus2jesus.com";
+};
+
 zone "limologix.com" {
         type master;
         file "/etc/bind/zones/db.limologix.com";
