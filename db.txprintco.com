@@ -2,7 +2,7 @@ $ORIGIN txprintco.com.
 $TTL 1800
 
 @		 IN   SOA ns1 postmaster.dadesigners.com. (
-		  	 75 	   	; Serial
+		  	 78996 	   	; Serial
 			 604800	   	; Refresh
 			 86400	   	; Retry
 			 2419200   	; Expire
@@ -13,15 +13,18 @@ $TTL 1800
 @		 IN   NS ns1.dadesigners.com.
 @		 IN   NS ns2.dadesigners.com.
 
-@		 IN   A 104.236.51.134
+@		 IN   A 108.167.185.254
 ns1 		 IN   A 104.131.56.122
 ns2		 IN   A 104.236.51.134
+crm		 IN   A 159.203.138.170
 
 www		 IN   CNAME txprintco.com.
 email		 IN   CNAME mailgun.org.
 
-@		 IN   MX 10 mxa.mailgun.org.
-@		 IN   MX 10 mxb.mailgun.org.
+@		 IN   MX 1  aspmx.l.google.com.
+@		 IN   MX 5  alt1.aspmx.l.google.com.
+@		 IN   MX 5  alt2.aspmx.l.google.com.
+@		 IN   MX 10 alt3.aspmx.l.google.com.
+@		 IN   MX 10 alt4.aspmx.l.google.com.
 
-@		 3600 TXT "v=spf1 include:mailgun.org ~all"
-pic._domainkey   3600 TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJSNzArWvrjIFbGemc6GnGLpov9qp5TPG6bSA8Kfz+FKPPBzbe88UfWb1Ryo/VeQe6dtBkI3ns4ZpuU5uzVaoGYEle8AolfEKxjTqcAhvNzqMNjKzAPEseF8nJ/lkmfZzbVVOk2UZJ6rr7vmbTiv/AL3AmzDclOSE0CyZbNFpY0QIDAQAB"
+@		 3600 TXT "google-site-verification=q5smF-LMKNm7a0_jmjYT8dpyIYaW7gKlRSkMR8EtV2A"
