@@ -190,6 +190,16 @@ zone "ranjithramasamy.com" {
 	file "/etc/bind/zones/db.ranjithramasamy.com";
 };
 
+zone "limologix.com" {
+        type master;
+        file "/etc/bind/zones/db.limologix.com";
+};
+
+zone "pharmacycleanroomsupply.com" {
+	type master;
+	file "/etc/bind/zones/db.pharmacycleanroomsupply.com";
+};
+
 zone "mydiamondintherough.com" {
 	type master;
 	file "/etc/bind/zones/db.mydiamondintherough.com";
@@ -261,6 +271,11 @@ zone "qsource.us" {
         file "/etc/bind/zones/db.qsource.us";
 };
 
+zone "djsameer.com" {
+        type master;
+        file "/etc/bind/zones/db.djsameer.com";
+};
+
 //Previous Records
 zone "adammasjid.org" {
 	type master;
@@ -310,11 +325,6 @@ zone "desivibes2013.com" {
 zone "divajewelryplus.com" {
 	type master;
 	file "/etc/bind/zones/previous_records/divajewelryplus.com";
-};
-
-zone "djsameer.com" {
-	type master;
-	file "/etc/bind/zones/previous_records/djsameer.com";
 };
 
 zone "dyartlabs.com" {
