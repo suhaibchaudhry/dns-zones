@@ -2,7 +2,7 @@ $ORIGIN uitoux.com.
 $TTL 1800
 
 @		 IN   SOA ns1 postmaster.dadesigners.com. (
-		  	 13333 	   	; Serial
+		  	 19999 	   	; Serial
 			 604800	   	; Refresh
 			 86400	   	; Retry
 			 2419200   	; Expire
@@ -19,6 +19,7 @@ office		 IN   A 96.88.40.226
 ns1 		 IN   A 104.131.56.122
 ns2		 IN   A 104.236.51.134
 ranjith		 IN   A 104.236.196.58
+ranjithdev	 IN   A 104.236.196.58
 pinnacle	 IN   A 104.236.196.58
 pharma		 IN   A 104.131.86.68
 zmedispa	 IN   A 104.236.196.58
