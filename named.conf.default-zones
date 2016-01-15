@@ -185,6 +185,11 @@ zone "sunsetspace.com" {
 	file "/etc/bind/zones/db.sunsetspace.com";
 };
 
+zone "larrylipshultz.com" {
+        type master;
+        file "/etc/bind/zones/db.larrylipshultz.com";
+};
+
 zone "ranjithramasamy.com" {
 	type master;
 	file "/etc/bind/zones/db.ranjithramasamy.com";
