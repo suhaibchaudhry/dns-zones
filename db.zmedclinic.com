@@ -2,7 +2,7 @@ $ORIGIN zmedclinic.com.
 $TTL	86400
 
 @							IN	SOA     ns1 postmaster.dadesigners.com. (
-										1417270	; Serial
+										1418380	; Serial
 										10800	; Refresh
 										3600	; Retry
 										604800	; Expire
@@ -19,6 +19,7 @@ ns2							IN A	    104.236.51.134
 @					 		IN A	    104.236.196.58
 www							IN CNAME    zmedclinic.com.
 email							IN CNAME    mailgun.org.
+dev							IN A	    104.236.196.58
 
 @							IN MX 	    10 mxa.mailgun.org.
 @							IN MX 	    10 mxb.mailgun.org.

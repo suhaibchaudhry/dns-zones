@@ -2,7 +2,7 @@ $ORIGIN dadesigners.com.
 $TTL 1800
 
 @		 IN   SOA ns1.digitalocean.com. hostmaster.dadesigners.com. (
-		  	 1417804393  ; Serial
+		  	 1417804500  ; Serial
 			 10800	     ; Refresh
 			 3600	     ; Retry
 			 604800      ; Expire
@@ -10,9 +10,8 @@ $TTL 1800
 
 @		 IN   NS ns1.dadesigners.com.
 @		 IN   NS ns2.dadesigners.com.
-@		 IN   NS ns1.digitalocean.com.
-@		 IN   NS ns2.digitalocean.com.
-@		 IN   NS ns3.digitalocean.com.
+@		 IN   NS damon.ns.cloudflare.com.
+@		 IN   NS mona.ns.cloudflare.com.
 
 @		 IN   A 104.236.51.134
 ns1 		 IN   A 104.131.56.122

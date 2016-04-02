@@ -190,6 +190,11 @@ zone "larrylipshultz.com" {
         file "/etc/bind/zones/db.larrylipshultz.com";
 };
 
+zone "awpurology.com" {
+	type master;
+	file "/etc/bind/zones/db.awpurology.com";
+};
+
 zone "ranjithramasamy.com" {
 	type master;
 	file "/etc/bind/zones/db.ranjithramasamy.com";
