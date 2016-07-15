@@ -195,6 +195,11 @@ zone "awpurology.com" {
 	file "/etc/bind/zones/db.awpurology.com";
 };
 
+zone "zoomeyecare.com" {
+        type master;
+        file "/etc/bind/zones/db.zoomeyecare.com";
+};
+
 zone "ranjithramasamy.com" {
 	type master;
 	file "/etc/bind/zones/db.ranjithramasamy.com";
@@ -203,6 +208,16 @@ zone "ranjithramasamy.com" {
 zone "jesus2jesus.com" {
         type master;
         file "/etc/bind/zones/db.jesus2jesus.com";
+};
+
+zone "returnofchrist.com" {
+	type master;
+	file "/etc/bind/zones/db.returnofchrist.com";
+};
+
+zone "wowtees.com" {
+        type master;
+        file "/etc/bind/zones/db.wowtees.com";
 };
 
 zone "limologix.com" {

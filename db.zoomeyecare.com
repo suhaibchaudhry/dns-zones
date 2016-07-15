@@ -1,24 +1,24 @@
-$ORIGIN awpurology.com.
+$ORIGIN zoomeyecare.com.
 $TTL 1800
 
 @		 IN   SOA ns1 postmaster.dadesigners.com. (
-		  	 906 	   	; Serial
+		  	 1011 	   	; Serial
 			 604800	   	; Refresh
 			 86400	   	; Retry
 			 2419200   	; Expire
 			 1800 )    	; Negative Cache TTL
 
-@		 IN   NS ns1.awpurology.com.
-@		 IN   NS ns2.awpurology.com.
+@		 IN   NS ns1.zoomeyecare.com.
+@		 IN   NS ns2.zoomeyecare.com.
 @		 IN   NS ns1.dadesigners.com.
 @		 IN   NS ns2.dadesigners.com.
 
-@		 IN   A 162.243.59.188
+@		 IN   A 104.236.207.72
 ns1 		 IN   A 104.131.56.122
 ns2		 IN   A 104.236.51.134
-dev		 IN   A 162.243.59.188
+dev		 IN   A 104.236.207.72
 
-www		 IN   CNAME awpurology.com.
+www		 IN   CNAME zoomeyecare.com.
 email            IN   CNAME mailgun.org.
 
 @                IN   MX 10 mxa.mailgun.org.
