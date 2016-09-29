@@ -2,7 +2,7 @@ $ORIGIN limologix.com.
 $TTL 1800
 
 @		 IN   SOA ns1 postmaster.dadesigners.com. (
-		  	 9000 	   	; Serial
+		  	 10123 	   	; Serial
 			 604800	   	; Refresh
 			 86400	   	; Retry
 			 2419200   	; Expire
@@ -19,17 +19,11 @@ ns2		 IN   A 104.236.51.134
 mx		 IN   A 104.131.196.215
 
 www		 IN   CNAME limologix.com.
-webmail	         IN   CNAME mx.limologix.com.
 
-@                IN   MX 10 mx.limologix.com.
+@                IN   MX 1  aspmx.l.google.com.
+@		 IN   MX 5  atl1.aspmx.l.google.com.
+@		 IN   MX 5  alt2.aspmx.l.google.com.
+@		 IN   MX 10 alt3.aspmx.l.google.com.
+@		 IN   MX 10 alt4.aspmx.l.google.com.
 
-; key#1, domain limologix.com, /var/lib/dkim/limologix.com.pem
-dkim._domainkey.limologix.com.	3600 TXT (
-  "v=DKIM1; p="
-  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA18v6avySAftKw005wmeN"
-  "6NZcm0BeWcDUorZLEUfUBk93xYvZK6m/dnJ3RlxDXqDzRAD1n9pzFOyAyzDhxkaQ"
-  "vJS39PxTXqvrf+DDvd2P8RUGVRVKcJuVq5+Susm6TDymB2tuw0ZLV35OisT4bfaP"
-  "DztuV1No94HgdMdzevrtDHt90qvJaLyby8lTu4Pxsr3Sz79CA4/FNQDEafihEgNW"
-  "IY1z2bv9bmJx2NEOrR6vQjeZGlxcvbcgUT+ROpNmMm4bZ3JTOzuBYKAugPpk3vtw"
-  "IOEBsu8P2320skG5l2t86BsTmcAKDhBSPYOWjBYRaAUHtyEPRCcgVx6NacEQLHR1"
-  "SwIDAQAB")
+@		 3600	TXT	"google-site-verification=g_DrjI2pqzwT13pW_XPPOpWaWpGDrgV-1BbSzYadCys"
