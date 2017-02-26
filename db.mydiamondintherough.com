@@ -2,7 +2,7 @@ $ORIGIN mydiamondintherough.com.
 $TTL	86400
 
 @							IN	SOA     ns1 postmaster.dadesigners.com. (
-										1417274140	; Serial
+										1417279999	; Serial
 										10800	; Refresh
 										3600	; Retry
 										604800	; Expire
@@ -16,5 +16,5 @@ $TTL	86400
 ns1	 						IN A	    104.131.56.122
 ns2							IN A	    104.236.51.134
 
-@					 		IN A	    45.55.172.166
+@					 		IN A	    174.138.76.136
 www							IN CNAME    mydiamondintherough.com.
