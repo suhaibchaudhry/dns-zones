@@ -205,9 +205,9 @@ zone "ranjithramasamy.com" {
 	file "/etc/bind/zones/db.ranjithramasamy.com";
 };
 
-zone "jesus2jesus.com" {
+zone "jesustojesus.com" {
         type master;
-        file "/etc/bind/zones/db.jesus2jesus.com";
+        file "/etc/bind/zones/db.jesustojesus.com";
 };
 
 zone "returnofchrist.com" {
@@ -228,6 +228,11 @@ zone "limologix.com" {
 zone "pharmacycleanroomsupply.com" {
 	type master;
 	file "/etc/bind/zones/db.pharmacycleanroomsupply.com";
+};
+
+zone "bullherbs.com" {
+	type master;
+	file "/etc/bind/zones/db.bullherbs.com";
 };
 
 zone "mydiamondintherough.com" {

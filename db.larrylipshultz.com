@@ -2,7 +2,7 @@ $ORIGIN larrylipshultz.com.
 $TTL 1800
 
 @		 IN   SOA ns1 postmaster.dadesigners.com. (
-		  	 2895 	   	; Serial
+		  	 289699 	   	; Serial
 			 604800	   	; Refresh
 			 86400	   	; Retry
 			 2419200   	; Expire
@@ -13,7 +13,7 @@ $TTL 1800
 @		 IN   NS ns1.dadesigners.com.
 @		 IN   NS ns2.dadesigners.com.
 
-@		 IN   A 159.203.86.31
+@		 IN   A 138.197.0.175
 ns1 		 IN   A 104.131.56.122
 ns2		 IN   A 104.236.51.134
 

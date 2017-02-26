@@ -2,7 +2,7 @@ $ORIGIN uitoux.com.
 $TTL 1800
 
 @		 IN   SOA ns1 postmaster.dadesigners.com. (
-		  	 644559   	; Serial
+		  	 688869   	; Serial
 			 604800	   	; Refresh
 			 86400	   	; Retry
 			 2419200   	; Expire
@@ -14,6 +14,7 @@ $TTL 1800
 @		 IN   NS ns2.dadesigners.com.
 
 @		 IN   A 159.203.138.170
+invoice		 IN   A 104.236.51.134
 demo		 IN   A 159.203.138.170 
 livecommit	 IN   A	162.243.16.23
 office		 IN   A 96.88.40.226
@@ -33,6 +34,9 @@ awp		 IN   A 162.243.59.188
 dev		 IN   A 159.203.138.170
 j2jstore	 IN   A 192.241.173.90
 roc		 IN   A 107.170.96.229
+bull		 IN   A 162.243.196.194
+hello		 IN   A 54.225.254.196
+ee		 IN   A 104.131.92.225
 
 www		 IN   CNAME uitoux.com.
 email		 IN   CNAME mailgun.org.
