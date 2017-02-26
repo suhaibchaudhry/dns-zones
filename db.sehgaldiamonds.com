@@ -2,7 +2,7 @@ $ORIGIN sehgaldiamonds.com.
 $TTL 1800
 
 @		 IN   SOA ns1 postmaster.dadesigners.com. (
-		  	 60 	   	; Serial
+		  	 6099 	   	; Serial
 			 604800	   	; Refresh
 			 86400	   	; Retry
 			 2419200   	; Expire
@@ -13,7 +13,7 @@ $TTL 1800
 @		 IN   NS ns1.dadesigners.com.
 @		 IN   NS ns2.dadesigners.com.
 
-@		 IN   A 104.131.243.49
+@		 IN   A 162.243.115.35
 ns1 		 IN   A 104.131.56.122
 ns2		 IN   A 104.236.51.134
 
