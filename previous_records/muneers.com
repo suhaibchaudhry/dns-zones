@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.muneers.com. asad.dadesigners.com. (
-			1497167805	;AUTO_INCREMENT
+			1497167974	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire
