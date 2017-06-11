@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns1.dadesigners.com. rwright.texascarpets.com. (
-			1497175832	;AUTO_INCREMENT
+			1497176505	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire
@@ -10,8 +10,8 @@ $TTL	86400
 
 texascarpets.net.		 IN NS	 ns1.dadesigners.com.
 texascarpets.net.                IN NS   ns2.dadesigners.com.
-ns.texascarpets.net.                IN NS   ns2.dadesigners.com.
-ns.texascaroets.net.		 IN A    108.210.135.156
+texascarpets.net.                IN NS   ns.texascarpets.net.
+ns.texascarpets.net.		 IN A    108.210.135.156
 ns1.dadesigners.com.		 IN A	 108.210.135.156
 ns2.dadesigners.com.             IN A    108.210.135.155
 webmail.texascarpets.net.	 IN A	 74.208.231.34

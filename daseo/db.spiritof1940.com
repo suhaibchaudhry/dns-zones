@@ -2,7 +2,7 @@ $ORIGIN spiritof1940.com.
 $TTL 1800
 
 @		 IN   SOA ns1 postmaster.dadesigners.com. (
-		  	 1497175832 	   	;AUTO_INCREMENT
+		  	 1497176505 	   	;AUTO_INCREMENT
 			 604800	   	; Refresh
 			 86400	   	; Retry
 			 2419200   	; Expire
