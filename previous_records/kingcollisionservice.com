@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.kingcollisionservice.com. info.kingcollisionservice.com. (
-			1349558096	; Serial
+			1349558096	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

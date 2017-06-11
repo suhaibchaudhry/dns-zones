@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.halaljones.com. asadpakistani.gmail.com. (
-			1327032595	; Serial
+			1327032595	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

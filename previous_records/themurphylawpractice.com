@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.themurphylawpractice.com. info.themurphylawpractice.com. (
-			1348190948	; Serial
+			1348190948	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

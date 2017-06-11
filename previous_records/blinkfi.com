@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.blinkfi.com. desidjav.gmail.com. (
-			1327728972	; Serial
+			1327728972	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

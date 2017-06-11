@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.galleriaautocollision.com. info.kingcollisionservice.com. (
-			1417280074	; Serial
+			1417280074	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

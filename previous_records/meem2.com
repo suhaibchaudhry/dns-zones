@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.meem2.com. lordsauronomair786.gmail.com. (
-			1415637018	; Serial
+			1415637018	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

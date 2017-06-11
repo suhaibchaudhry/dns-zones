@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.greenboxatm.com. citywideatm.gmail.com. (
-			1291775553	; Serial
+			1291775553	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

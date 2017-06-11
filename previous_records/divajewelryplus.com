@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.divajewelryplus.com. asad.dadesigners.com. (
-			1291677746	; Serial
+			1291677746	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

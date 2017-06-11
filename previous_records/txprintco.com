@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.txprintco.com. asad.dadesigners.com. (
-			1313134948	; Serial
+			1313134948	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

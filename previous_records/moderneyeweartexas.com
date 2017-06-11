@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.moderneyeweartexas.com. asadpakistani.gmail.com. (
-			1372891886	; Serial
+			1372891886	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.tijostyle.com. info.tijostyle.com. (
-			1347553530	; Serial
+			1347553530	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

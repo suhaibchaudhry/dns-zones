@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.c3sinc.com. info.c3sinc.com. (
-			1417267081	; Serial
+			1417267081	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

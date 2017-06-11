@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.bz-grill.com. asadpakistani.gmail.com. (
-			1359432076	; Serial
+			1359432076	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

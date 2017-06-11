@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.ydkml.com. info.ydkml.com. (
-			1417288658	; Serial
+			1417288658	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

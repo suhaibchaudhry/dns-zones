@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.myprepaidservice.com. asad.dadesigners.com. (
-			1360122719	; Serial
+			1360122719	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

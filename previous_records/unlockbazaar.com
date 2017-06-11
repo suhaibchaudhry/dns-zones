@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.unlockbazaar.com. farazz08.yahoo.com. (
-			1321318448	; Serial
+			1321318448	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

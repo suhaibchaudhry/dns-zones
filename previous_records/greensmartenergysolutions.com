@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.greensmartenergysolutions.com. dlmessinger.verizon.net. (
-			1291584440	; Serial
+			1291584440	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

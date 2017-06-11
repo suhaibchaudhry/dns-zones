@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.hairbyjose.com. asadpakistani.gmail.com. (
-			1328915813	; Serial
+			1328915813	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

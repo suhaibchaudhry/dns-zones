@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.aaamaytag.com. asadpakistani.gmail.com. (
-			1312323718	; Serial
+			1312323718	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

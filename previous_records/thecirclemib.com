@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.thecirclemib.com. thecirclemib.gmail.com. (
-			1417287571	; Serial
+			1417287571	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

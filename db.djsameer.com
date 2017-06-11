@@ -2,7 +2,7 @@ $ORIGIN djsameer.com.
 $TTL 1800
 
 @		 IN   SOA ns1 postmaster.dadesigners.com. (
-		  	 895 	   	; Serial
+		  	 895 	   	;AUTO_INCREMENT
 			 604800	   	; Refresh
 			 86400	   	; Retry
 			 2419200   	; Expire

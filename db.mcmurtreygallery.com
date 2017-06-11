@@ -3,7 +3,7 @@ $ORIGIN mcmurtreygallery.com.
 $TTL	86400
 
 @	IN	SOA	ns1 roni.mcmurtreygallery.com. (
-			1417267850	; Serial
+			1417267850	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

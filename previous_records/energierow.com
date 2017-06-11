@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.energierow.com. felix.energierow.com. (
-			1346351889	; Serial
+			1346351889	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

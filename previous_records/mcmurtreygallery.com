@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.mcmurtreygallery.com. roni.mcmurtreygallery.com. (
-			1417267837	; Serial
+			1417267837	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

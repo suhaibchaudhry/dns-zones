@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.wirelesstienda.com. asad.dadesigners.com. (
-			1328338062	; Serial
+			1328338062	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire
