@@ -230,11 +230,6 @@ zone "pharmacycleanroomsupply.com" {
 	file "/etc/bind/zones/db.pharmacycleanroomsupply.com";
 };
 
-zone "bullherbs.com" {
-	type master;
-	file "/etc/bind/zones/db.bullherbs.com";
-};
-
 zone "mydiamondintherough.com" {
 	type master;
 	file "/etc/bind/zones/db.mydiamondintherough.com";

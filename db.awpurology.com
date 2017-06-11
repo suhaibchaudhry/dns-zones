@@ -2,7 +2,7 @@ $ORIGIN awpurology.com.
 $TTL 1800
 
 @		 IN   SOA ns1 postmaster.dadesigners.com. (
-		  	 906 	   	; Serial
+		  	 9069 	   	; Serial
 			 604800	   	; Refresh
 			 86400	   	; Retry
 			 2419200   	; Expire
@@ -13,10 +13,10 @@ $TTL 1800
 @		 IN   NS ns1.dadesigners.com.
 @		 IN   NS ns2.dadesigners.com.
 
-@		 IN   A 162.243.59.188
+@		 IN   A 108.210.135.153
 ns1 		 IN   A 104.131.56.122
 ns2		 IN   A 104.236.51.134
-dev		 IN   A 162.243.59.188
+dev		 IN   A 108.210.135.153
 
 www		 IN   CNAME awpurology.com.
 email            IN   CNAME mailgun.org.
