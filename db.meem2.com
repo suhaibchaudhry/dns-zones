@@ -2,7 +2,7 @@ $ORIGIN meem2.com.
 $TTL	86400
 
 @			IN	SOA	ns1 postmater.dadesigners.com. (
-					20171497167690	;AUTO_INCREMENT
+					1497167805	;AUTO_INCREMENT
 					10800		; Refresh
 					3600		; Retry
 					604800		; Expire
