@@ -2,7 +2,7 @@ $ORIGIN medinetclinic.com.
 $TTL 1800
 
 @		 IN   SOA ns1 postmaster.dadesigners.com. (
-		  	 1497167974 	   	;AUTO_INCREMENT
+		  	 1497174527 	   	;AUTO_INCREMENT
 			 604800	   	; Refresh
 			 86400	   	; Retry
 			 2419200   	; Expire

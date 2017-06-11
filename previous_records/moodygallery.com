@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.moodygallery.com. adrian.moodygallery.com. (
-			1497167974	;AUTO_INCREMENT
+			1497174527	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire
