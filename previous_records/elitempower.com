@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 elitempower.com.		 	IN NS	 ns.elitempower.com.
-ns.elitempower.com.		 	IN A	 104.131.56.122
+ns.elitempower.com.		 	IN A	 108.210.135.156
 elitempower.com.		 	IN A	 74.208.231.34
 webmail.elitempower.com.	IN A	 74.208.231.34
 mail.elitempower.com.		IN A	 74.208.231.34

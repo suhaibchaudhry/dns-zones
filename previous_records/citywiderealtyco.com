@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 citywiderealtyco.com.		 	IN NS	 ns.citywiderealtyco.com.
-ns.citywiderealtyco.com.		IN A	 104.131.56.122
+ns.citywiderealtyco.com.		IN A	 108.210.135.156
 citywiderealtyco.com.		 	IN A	 74.208.243.61
 webmail.citywiderealtyco.com.	IN A	 74.208.243.61
 mail.citywiderealtyco.com.		IN A	 74.208.243.61

@@ -9,10 +9,10 @@ $TTL	86400
 			10800 )	; Minimum
 
 regencyhousekeeping.com.		 	IN NS	 ns.regencyhousekeeping.com.
-ns.regencyhousekeeping.com.		 	IN A	 104.131.56.122
+ns.regencyhousekeeping.com.		 	IN A	 108.210.135.156
 webmail.regencyhousekeeping.com. 	IN A	 74.208.231.34
 mail.regencyhousekeeping.com.		IN A	 74.208.231.34
-regencyhousekeeping.com.		 	IN A	 104.236.51.134
+regencyhousekeeping.com.		 	IN A	 108.210.135.155
 ftp.regencyhousekeeping.com.		IN CNAME	regencyhousekeeping.com.
 www.regencyhousekeeping.com.		IN CNAME	regencyhousekeeping.com.
 regencyhousekeeping.com.		 	IN MX 10	mail.regencyhousekeeping.com.

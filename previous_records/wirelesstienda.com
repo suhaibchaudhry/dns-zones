@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 wirelesstienda.com.		 IN NS	 ns.wirelesstienda.com.
-ns.wirelesstienda.com.		 IN A	 104.131.56.122
+ns.wirelesstienda.com.		 IN A	 108.210.135.156
 wirelesstienda.com.		 IN A	 74.208.231.34
 webmail.wirelesstienda.com.	 IN A	 74.208.231.34
 mail.wirelesstienda.com.	 IN A	 74.208.231.34

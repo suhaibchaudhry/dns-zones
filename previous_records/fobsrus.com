@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 fobsrus.com.		 	IN NS	 ns.fobsrus.com.
-ns.fobsrus.com.		 	IN A	 104.131.56.122
+ns.fobsrus.com.		 	IN A	 108.210.135.156
 fobsrus.com.		 	IN A	 74.208.231.34
 webmail.fobsrus.com.	IN A	 74.208.231.34
 mail.fobsrus.com.		IN A	 74.208.231.34

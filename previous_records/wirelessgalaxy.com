@@ -13,7 +13,7 @@ crm.wirelessgalaxy.com.		 IN A	 74.124.24.6
 wirelessgalaxy.com.		 IN A	 74.208.243.61
 webmail.wirelessgalaxy.com.	 IN A	 74.208.243.61
 mail.wirelessgalaxy.com.	 IN A	 74.208.243.61
-ns.wirelessgalaxy.com.		 IN A	 104.131.56.122
+ns.wirelessgalaxy.com.		 IN A	 108.210.135.156
 ftp.wirelessgalaxy.com.		 IN CNAME	 wirelessgalaxy.com.
 www.wirelessgalaxy.com.		 IN CNAME	 wirelessgalaxy.com.
 wirelessgalaxy.com.		 IN MX	10 mail.wirelessgalaxy.com.

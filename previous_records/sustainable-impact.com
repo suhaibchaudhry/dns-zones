@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 sustainable-impact.com.		 	 IN NS	 ns.sustainable-impact.com.
-ns.sustainable-impact.com.		 IN A	 104.131.56.122
+ns.sustainable-impact.com.		 IN A	 108.210.135.156
 sustainable-impact.com.		 	 IN A	 74.208.231.34
 webmail.sustainable-impact.com.		 IN A	 74.208.231.34
 mail.sustainable-impact.com.		 IN A	 74.208.231.34

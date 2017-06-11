@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 humanmindproject.com.		 		IN NS	 ns.humanmindproject.com.
-ns.humanmindproject.com.			IN A	 104.131.56.122
+ns.humanmindproject.com.			IN A	 108.210.135.156
 humanmindproject.com.		 		IN A	 74.208.231.34
 webmail.humanmindproject.com.		IN A	 74.208.231.34
 mail.humanmindproject.com.			IN A	 74.208.231.34

@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 mdanish.com.		 	IN NS	 ns.mdanish.com.
-ns.mdanish.com.		 	IN A	 104.131.56.122
+ns.mdanish.com.		 	IN A	 108.210.135.156
 mdanish.com.		 	IN A	 74.208.231.34
 webmail.mdanish.com.	IN A	 74.208.231.34
 mail.mdanish.com.		IN A	 74.208.231.34

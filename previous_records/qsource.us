@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 qsource.us.		 		IN NS	 ns.qsource.us.
-ns.qsource.us.			IN A	 104.131.56.122
+ns.qsource.us.			IN A	 108.210.135.156
 qsource.us.		 		IN A	 74.208.231.34
 webmail.qsource.us.		IN A	 74.208.231.34
 mail.qsource.us.		IN A	 74.208.231.34

@@ -9,6 +9,6 @@ $TTL	86400
 			10800 )	; Minimum
 
 quickshipcellular.com.		 		IN NS	 ns.quickshipcellular.com.
-ns.quickshipcellular.com.			IN A	 104.131.56.122
-quickshipcellular.com.		 		IN A	 104.236.51.134
+ns.quickshipcellular.com.			IN A	 108.210.135.156
+quickshipcellular.com.		 		IN A	 108.210.135.155
 www.quickshipcellular.com.		 	IN CNAME quickshipcellular.com.

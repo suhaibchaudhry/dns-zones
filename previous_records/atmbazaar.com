@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 atmbazaar.com.		 	IN NS	 ns.atmbazaar.com.
-ns.atmbazaar.com.		IN A	 104.131.56.122
+ns.atmbazaar.com.		IN A	 108.210.135.156
 atmbazaar.com.		 	IN A	 74.208.243.61
 mail.atmbazaar.com.		IN A	 74.208.243.61
 ftp.atmbazaar.com.		IN CNAME	 atmbazaar.com.

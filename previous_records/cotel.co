@@ -9,10 +9,10 @@ $TTL	86400
 			10800 )	; Minimum
 
 cotel.co.		 	IN NS	 ns.cotel.co.
-ns.cotel.co.		IN A	 104.131.56.122
+ns.cotel.co.		IN A	 108.210.135.156
 webmail.cotel.co.	IN A	 74.208.231.34
 mail.cotel.co.		IN A	 74.208.231.34
-cotel.co.		 	IN A	 104.236.51.134
+cotel.co.		 	IN A	 108.210.135.155
 ftp.cotel.co.		IN CNAME	 cotel.co.
 www.cotel.co.		IN CNAME	 cotel.co.
 cotel.co.		 	IN MX 10 	 mail.cotel.co.

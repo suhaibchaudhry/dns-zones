@@ -9,10 +9,10 @@ $TTL	86400
 			10800 )	; Minimum
 
 txwlc.com.		 IN NS	 ns.txwlc.com.
-ns.txwlc.com.		 IN A	 104.131.56.122
+ns.txwlc.com.		 IN A	 108.210.135.156
 webmail.txwlc.com.	 IN A	 74.208.231.34
 mail.txwlc.com.		 IN A	 74.208.231.34
-txwlc.com.		 IN A	 104.236.51.134
+txwlc.com.		 IN A	 108.210.135.155
 ftp.txwlc.com.		 IN CNAME	 txwlc.com.
 www.txwlc.com.		 IN CNAME	 txwlc.com.
 txwlc.com.		 IN MX	10 mail.txwlc.com.

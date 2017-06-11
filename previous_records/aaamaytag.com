@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 aaamaytag.com.		 	IN NS	 ns.aaamaytag.com.
-ns.aaamaytag.com.		IN A	 104.131.56.122
+ns.aaamaytag.com.		IN A	 108.210.135.156
 aaamaytag.com.		 	IN A	 74.208.231.34
 webmail.aaamaytag.com.	IN A	 74.208.231.34
 mail.aaamaytag.com.		IN A	 74.208.231.34

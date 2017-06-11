@@ -9,13 +9,13 @@ $TTL	86400
 			10800 )	; Minimum
 
 mcmurtreygallery.com.				IN NS	 ns.mcmurtreygallery.com.
-ns.mcmurtreygallery.com.			IN A	 104.131.56.122
+ns.mcmurtreygallery.com.			IN A	 108.210.135.156
 webmail.mcmurtreygallery.com.		IN A	 174.122.149.156
 cpanel.mcmurtreygallery.com.		IN A	 174.122.149.156
 whm.mcmurtreygallery.com.		 	IN A	 174.122.149.156
 webdisk.mcmurtreygallery.com.		IN A	 174.122.149.156
 mail.mcmurtreygallery.com.		 	IN A	 192.254.250.18
-mcmurtreygallery.com.		 		IN A	 104.236.51.134
+mcmurtreygallery.com.		 		IN A	 108.210.135.155
 ftp.mcmurtreygallery.com.		 	IN CNAME	mcmurtreygallery.com.
 www.mcmurtreygallery.com.		 	IN CNAME	mcmurtreygallery.com.
 mcmurtreygallery.com.		 		IN MX 10 	gator3293.hostgator.com.

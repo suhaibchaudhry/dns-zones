@@ -14,12 +14,12 @@ $TTL 1800
 @		 IN   NS ns2.dadesigners.com.
 
 @		 IN   A 159.203.138.170
-invoice		 IN   A 104.236.51.134
+invoice		 IN   A 108.210.135.155
 demo		 IN   A 159.203.138.170 
 livecommit	 IN   A	162.243.16.23
 office		 IN   A 96.88.40.226
-ns1 		 IN   A 104.131.56.122
-ns2		 IN   A 104.236.51.134
+ns1 		 IN   A 108.210.135.156
+ns2		 IN   A 108.210.135.155
 ranjith		 IN   A 104.236.196.58
 ranjithdev	 IN   A 104.236.196.58
 pinnacle	 IN   A 104.236.196.58

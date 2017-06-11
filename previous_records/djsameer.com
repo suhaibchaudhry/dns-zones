@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 djsameer.com.		 	IN NS	 ns.djsameer.com.
-ns.djsameer.com.		IN A	 104.131.56.122
+ns.djsameer.com.		IN A	 108.210.135.156
 djsameer.com.		 	IN A	 74.208.231.34
 webmail.djsameer.com.	IN A	 74.208.231.34
 mail.djsameer.com.		IN A	 74.208.231.34

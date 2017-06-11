@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 cwatm.com.		 IN NS	 ns.cwatm.com.
-ns.cwatm.com.	 IN A	 104.131.56.122
+ns.cwatm.com.	 IN A	 108.210.135.156
 cwatm.com.		 IN A	 74.208.243.61
 mail.cwatm.com.	 IN A	 74.208.243.61
 ftp.cwatm.com.	 IN CNAME	 cwatm.com.

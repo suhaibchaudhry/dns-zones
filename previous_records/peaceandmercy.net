@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 peaceandmercy.net.		 		IN NS	 ns.peaceandmercy.net.
-ns.peaceandmercy.net.	 		IN A	 104.131.56.122
+ns.peaceandmercy.net.	 		IN A	 108.210.135.156
 peaceandmercy.net.		 		IN A	 74.208.231.34
 webmail.peaceandmercy.net.		IN A	 74.208.231.34
 mail.peaceandmercy.net.			IN A	 74.208.231.34

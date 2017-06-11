@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 myprepaidservice.com.		 		IN NS	 ns.myprepaidservice.com.
-ns.myprepaidservice.com.	 		IN A	 104.131.56.122
+ns.myprepaidservice.com.	 		IN A	 108.210.135.156
 webmail.myprepaidservice.com.		IN A	 74.208.231.34
 mail.myprepaidservice.com.			IN A	 74.208.231.34
 myprepaidservice.com.		 		IN A	 98.201.136.204

@@ -9,10 +9,10 @@ $TTL	86400
 			10800 )	; Minimum
 
 c3sinc.com.		 		IN NS	 ns.c3sinc.com.
-ns.c3sinc.com.			IN A	 104.131.56.122
+ns.c3sinc.com.			IN A	 108.210.135.156
 webmail.c3sinc.com.		IN A	 74.208.231.34
 mail.c3sinc.com.		IN A	 74.208.231.34
-c3sinc.com.		 		IN A	 104.236.51.134
+c3sinc.com.		 		IN A	 108.210.135.155
 ftp.c3sinc.com.		 	IN CNAME	c3sinc.com.
 www.c3sinc.com.		 	IN CNAME	c3sinc.com.
 c3sinc.com.		 		IN MX 10 	mail.c3sinc.com.

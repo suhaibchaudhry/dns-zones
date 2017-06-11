@@ -9,8 +9,8 @@ $TTL	86400
 			10800 )	; Minimum
 
 easternartfurniture.com.		 	IN NS	 ns.easternartfurniture.com.
-ns.easternartfurniture.com.		 	IN A	 104.131.56.122
-easternartfurniture.com.		 	IN A	 104.236.51.134
+ns.easternartfurniture.com.		 	IN A	 108.210.135.156
+easternartfurniture.com.		 	IN A	 108.210.135.155
 webmail.easternartfurniture.com.	IN A	 74.208.231.34
 mail.easternartfurniture.com.		IN A	 74.208.231.34
 ftp.easternartfurniture.com.		IN CNAME	 easternartfurniture.com.

@@ -9,8 +9,8 @@ $TTL	86400
 			10800 )	; Minimum
 
 dyartlabs.com.		 		IN NS	 ns.dyartlabs.com.
-ns.dyartlabs.com.			IN A	 104.131.56.122
-dyartlabs.com.		 		IN A	 104.236.51.134
+ns.dyartlabs.com.			IN A	 108.210.135.156
+dyartlabs.com.		 		IN A	 108.210.135.155
 webmail.dyartlabs.com.		IN A	 74.208.231.34
 mail.dyartlabs.com.			IN A	 74.208.231.34
 ftp.dyartlabs.com.			IN CNAME	 dyartlabs.com.

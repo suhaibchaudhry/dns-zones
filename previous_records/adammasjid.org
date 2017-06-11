@@ -9,10 +9,10 @@ $TTL	86400
 			10800 )	; Minimum
 
 adammasjid.org.		 	IN NS	 ns.adammasjid.org.
-ns.adammasjid.org.		IN A	 104.131.56.122
+ns.adammasjid.org.		IN A	 108.210.135.156
 webmail.adammasjid.org.	IN A	 74.208.231.34
 mail.adammasjid.org.	IN A	 74.208.231.34
-adammasjid.org.		 	IN A	 104.236.51.134
+adammasjid.org.		 	IN A	 108.210.135.155
 ftp.adammasjid.org.		IN CNAME	 adammasjid.org.
 www.adammasjid.org.		IN CNAME	 adammasjid.org.
 adammasjid.org.		 	IN MX	10 mail.adammasjid.org.

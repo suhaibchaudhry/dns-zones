@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 freeatmnetwork.com.		 		IN NS	 ns.freeatmnetwork.com.
-ns.freeatmnetwork.com.			IN A	 104.131.56.122
+ns.freeatmnetwork.com.			IN A	 108.210.135.156
 freeatmnetwork.com.		 		IN A	 74.208.231.34
 webmail.freeatmnetwork.com.		IN A	 74.208.231.34
 mail.freeatmnetwork.com.		IN A	 74.208.231.34

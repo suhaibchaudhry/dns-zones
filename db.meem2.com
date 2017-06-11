@@ -13,14 +13,14 @@ $TTL	86400
 @			IN	NS	ns1.dadesigners.com.
 @			IN	NS	ns2.dadesigners.com.
 
-@			IN	A	104.236.51.134
-senor			IN 	A	104.236.51.134
+@			IN	A	108.210.135.155
+senor			IN 	A	108.210.135.155
 empower			IN 	A	104.131.86.68
 ms5			IN 	A	107.170.202.168
 ms6			IN 	A	107.170.202.168
 ms9			IN 	A	107.170.202.168
 ms8			IN 	A	107.170.202.168
-ns1			IN	A	104.131.56.122
-ns2			IN	A	104.236.51.134
+ns1			IN	A	108.210.135.156
+ns2			IN	A	108.210.135.155
 
 www			IN 	CNAME		meem2.com.

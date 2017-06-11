@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 atmpitbull.com.		 	IN NS	 ns.atmpitbull.com.
-ns.atmpitbull.com.		IN A	 104.131.56.122
+ns.atmpitbull.com.		IN A	 108.210.135.156
 atmpitbull.com.		 	IN A	 74.208.243.61
 webmail.atmpitbull.com.	IN A	 74.208.243.61
 mail.atmpitbull.com.	IN A	 74.208.243.61

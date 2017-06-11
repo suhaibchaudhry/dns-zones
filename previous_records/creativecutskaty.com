@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 creativecutskaty.com.		 	IN NS	 ns.creativecutskaty.com.
-ns.creativecutskaty.com.		IN A	 104.131.56.122
+ns.creativecutskaty.com.		IN A	 108.210.135.156
 creativecutskaty.com.		 	IN A	 74.208.231.34
 webmail.creativecutskaty.com.	IN A	 74.208.231.34
 mail.creativecutskaty.com.		IN A	 74.208.231.34

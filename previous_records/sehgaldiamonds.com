@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 sehgaldiamonds.com.		 		IN NS	 ns.sehgaldiamonds.com.
-ns.sehgaldiamonds.com.	 		IN A	 104.131.56.122
+ns.sehgaldiamonds.com.	 		IN A	 108.210.135.156
 sehgaldiamonds.com.		 		IN A	 104.131.243.49
 webmail.sehgaldiamonds.com.		IN A	 74.208.192.69
 mail.sehgaldiamonds.com.		IN A	 74.208.192.69

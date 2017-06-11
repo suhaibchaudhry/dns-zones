@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 staffordhousing.com.		 IN NS	 ns.staffordhousing.com.
-ns.staffordhousing.com.		 IN A	 104.131.56.122
+ns.staffordhousing.com.		 IN A	 108.210.135.156
 staffordhousing.com.		 IN A	 104.131.243.49
 dev.staffordhousing.com.	 IN A 	 104.131.243.49
 webmail.staffordhousing.com. IN A	 74.208.231.34

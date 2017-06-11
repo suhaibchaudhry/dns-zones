@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 wirelessexports.com.		 IN NS	 ns.wirelessexports.com.
-ns.wirelessexports.com.		 IN A	 104.131.56.122
+ns.wirelessexports.com.		 IN A	 108.210.135.156
 wirelessexports.com.		 IN A	 74.208.98.88
 webmail.wirelessexports.com.	 IN A	 74.208.98.88
 mail.wirelessexports.com.	 IN A	 74.208.98.88

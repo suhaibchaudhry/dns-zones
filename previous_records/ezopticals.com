@@ -9,8 +9,8 @@ $TTL	86400
 			10800 )	; Minimum
 
 ezopticals.com.		 	IN NS	 ns.ezopticals.com.
-ns.ezopticals.com.		IN A	 104.131.56.122
-ezopticals.com.		 	IN A	 104.236.51.134
+ns.ezopticals.com.		IN A	 108.210.135.156
+ezopticals.com.		 	IN A	 108.210.135.155
 webmail.ezopticals.com.	IN A	 74.208.231.34
 mail.ezopticals.com.	IN A	 74.208.231.34
 ftp.ezopticals.com.		IN CNAME	 ezopticals.com.

@@ -9,10 +9,10 @@ $TTL	86400
 			10800 )	; Minimum
 
 medistarhealthcare.net.		 		IN NS	 ns.medistarhealthcare.net.
-ns.medistarhealthcare.net.			IN A	 104.131.56.122
+ns.medistarhealthcare.net.			IN A	 108.210.135.156
 webmail.medistarhealthcare.net.		IN A	 74.208.231.34
 mail.medistarhealthcare.net.		IN A	 74.208.231.34
-medistarhealthcare.net.		 		IN A	 104.236.51.134
+medistarhealthcare.net.		 		IN A	 108.210.135.155
 ftp.medistarhealthcare.net.		 	IN CNAME	medistarhealthcare.net.
 www.medistarhealthcare.net.		 	IN CNAME	medistarhealthcare.net.
 medistarhealthcare.net.		 		IN MX 10 	mail.medistarhealthcare.net.

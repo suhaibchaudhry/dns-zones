@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 moderneyeweartexas.com.		 		IN NS	 ns.moderneyeweartexas.com.
-ns.moderneyeweartexas.com.			IN A	 104.131.56.122
+ns.moderneyeweartexas.com.			IN A	 108.210.135.156
 moderneyeweartexas.com.			 	IN A	 74.208.231.34
 webmail.moderneyeweartexas.com.		IN A	 74.208.231.34
 mail.moderneyeweartexas.com.		IN A	 74.208.231.34

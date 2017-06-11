@@ -9,10 +9,10 @@ $TTL	86400
 			10800 )	; Minimum
 
 texascarpets.net.		 IN NS	 ns.texascarpets.net.
-ns.texascarpets.net.		 IN A	 104.131.56.122
+ns.texascarpets.net.		 IN A	 108.210.135.156
 webmail.texascarpets.net.	 IN A	 74.208.231.34
 mail.texascarpets.net.		 IN A	 74.208.231.34
-texascarpets.net.		 IN A	 104.236.51.134
+texascarpets.net.		 IN A	 108.210.135.155
 ftp.texascarpets.net.		 IN CNAME texascarpets.net.
 www.texascarpets.net.		 IN CNAME texascarpets.net.
 texascarpets.net.		 IN MX 10 mail.texascarpets.net.

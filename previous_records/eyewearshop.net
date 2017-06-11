@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 eyewearshop.net.		 	IN NS	 ns.eyewearshop.net.
-ns.eyewearshop.net.		 	IN A	 104.131.56.122
+ns.eyewearshop.net.		 	IN A	 108.210.135.156
 eyewearshop.net.		 	IN A	 74.208.231.34
 webmail.eyewearshop.net.	IN A	 74.208.231.34
 mail.eyewearshop.net.		IN A	 74.208.231.34

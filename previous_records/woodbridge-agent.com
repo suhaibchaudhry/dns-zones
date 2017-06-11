@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 woodbridge-agent.com.		 IN NS	 ns.woodbridge-agent.com.
-ns.woodbridge-agent.com.		 IN A	 104.131.56.122
+ns.woodbridge-agent.com.		 IN A	 108.210.135.156
 woodbridge-agent.com.		 	 IN A	 74.208.231.34
 webmail.woodbridge-agent.com.		 IN A	 74.208.231.34
 mail.woodbridge-agent.com.		 IN A	 74.208.231.34

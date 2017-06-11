@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 kingcollisionservice.com.		 		IN NS	 ns.kingcollisionservice.com.
-ns.kingcollisionservice.com.			IN A	 104.131.56.122
+ns.kingcollisionservice.com.			IN A	 108.210.135.156
 kingcollisionservice.com.		 		IN A	 74.208.231.34
 webmail.kingcollisionservice.com.		IN A	 74.208.231.34
 mail.kingcollisionservice.com.			IN A	 74.208.231.34

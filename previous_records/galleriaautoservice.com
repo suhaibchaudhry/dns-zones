@@ -9,10 +9,10 @@ $TTL	86400
 			10800 )	; Minimum
 
 galleriaautoservice.com.		 	IN NS	 ns.galleriaautoservice.com.
-ns.galleriaautoservice.com.		 	IN A	 104.131.56.122
+ns.galleriaautoservice.com.		 	IN A	 108.210.135.156
 webmail.galleriaautoservice.com.	IN A	 74.208.231.34
 mail.galleriaautoservice.com.		IN A	 74.208.231.34
-galleriaautoservice.com.		 	IN A	 104.236.51.134
+galleriaautoservice.com.		 	IN A	 108.210.135.155
 ftp.galleriaautoservice.com.		IN CNAME	 galleriaautoservice.com.
 www.galleriaautoservice.com.		IN CNAME	 galleriaautoservice.com.
 galleriaautoservice.com.		 	IN MX 10 	 mail.galleriaautoservice.com.

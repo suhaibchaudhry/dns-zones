@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 rosenbergrrmuseum.org.		 		IN NS	 ns.rosenbergrrmuseum.org.
-ns.rosenbergrrmuseum.org.			IN A	 104.131.56.122
+ns.rosenbergrrmuseum.org.			IN A	 108.210.135.156
 rosenbergrrmuseum.org.		 		IN A	 216.250.117.61
 webmail.rosenbergrrmuseum.org.		IN A	 216.250.117.61
 mail.rosenbergrrmuseum.org.			IN A	 216.250.117.61

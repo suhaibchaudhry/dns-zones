@@ -14,8 +14,8 @@ $TTL 1800
 @		 IN   NS ns2.dadesigners.com.
 
 @		 IN   A 104.236.196.58
-ns1 		 IN   A 104.131.56.122
-ns2		 IN   A 104.236.51.134
+ns1 		 IN   A 108.210.135.156
+ns2		 IN   A 108.210.135.155
 
 www		 IN   CNAME ranjithramasamy.com.
 email            IN   CNAME mailgun.org.

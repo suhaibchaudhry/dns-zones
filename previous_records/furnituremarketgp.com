@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 furnituremarketgp.com.		 	IN NS	 ns.furnituremarketgp.com.
-ns.furnituremarketgp.com.		IN A	 104.131.56.122
+ns.furnituremarketgp.com.		IN A	 108.210.135.156
 furnituremarketgp.com.		 	IN A	 74.208.231.34
 webmail.furnituremarketgp.com.	IN A	 74.208.231.34
 mail.furnituremarketgp.com.		IN A	 74.208.231.34

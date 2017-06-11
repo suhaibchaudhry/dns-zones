@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 citywideatm.com.		 	IN NS	 ns.citywideatm.com.
-ns.citywideatm.com.		 	IN A	 104.131.56.122
+ns.citywideatm.com.		 	IN A	 108.210.135.156
 citywideatm.com.		 	IN A	 74.208.243.61
 mail.citywideatm.com.		IN A	 74.208.243.61
 braille.citywideatm.com.	IN A	 74.208.243.61

@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 greensmartenergysolutions.com.		 		IN NS	 ns.greensmartenergysolutions.com.
-ns.greensmartenergysolutions.com.			IN A	 104.131.56.122
+ns.greensmartenergysolutions.com.			IN A	 108.210.135.156
 greensmartenergysolutions.com.		 		IN A	 74.208.231.34
 webmail.greensmartenergysolutions.com.		IN A	 74.208.231.34
 mail.greensmartenergysolutions.com.			IN A	 74.208.231.34

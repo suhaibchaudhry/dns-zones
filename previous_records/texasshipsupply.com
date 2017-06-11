@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 texasshipsupply.com.		 IN NS	 ns.texasshipsupply.com.
-ns.texasshipsupply.com.		 IN A	 104.131.56.122
+ns.texasshipsupply.com.		 IN A	 108.210.135.156
 texasshipsupply.com.		 IN A	 74.208.231.34
 webmail.texasshipsupply.com.	 IN A	 74.208.231.34
 mail.texasshipsupply.com.	 IN A	 74.208.231.34

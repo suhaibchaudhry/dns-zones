@@ -9,8 +9,8 @@ $TTL	86400
 			10800 )	; Minimum
 
 themurphylawpractice.com.		 IN NS	 ns.themurphylawpractice.com.
-ns.themurphylawpractice.com.		 IN A	 104.131.56.122
-themurphylawpractice.com.		 IN A	 104.236.51.134
+ns.themurphylawpractice.com.		 IN A	 108.210.135.156
+themurphylawpractice.com.		 IN A	 108.210.135.155
 webmail.themurphylawpractice.com.	 IN A	 74.208.231.34
 mail.themurphylawpractice.com.		 IN A	 74.208.231.34
 ftp.themurphylawpractice.com.		 IN CNAME themurphylawpractice.com.

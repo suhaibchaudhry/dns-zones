@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 desivibes2013.com.		 	IN NS	 ns.desivibes2013.com.
-ns.desivibes2013.com.		IN A	 104.131.56.122
+ns.desivibes2013.com.		IN A	 108.210.135.156
 desivibes2013.com.		 	IN A	 74.208.231.34
 webmail.desivibes2013.com.	IN A	 74.208.231.34
 mail.desivibes2013.com.		IN A	 74.208.231.34

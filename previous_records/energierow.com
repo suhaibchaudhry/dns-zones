@@ -9,8 +9,8 @@ $TTL	86400
 			10800 )	; Minimum
 
 energierow.com.		 	 IN NS	 ns.energierow.com.
-ns.energierow.com.		 IN A	 104.131.56.122
-energierow.com.		 	 IN A	 104.236.51.134
+ns.energierow.com.		 IN A	 108.210.135.156
+energierow.com.		 	 IN A	 108.210.135.155
 webmail.energierow.com.	 IN A	 74.208.231.34
 mail.energierow.com.	 IN A	 74.208.231.34
 ftp.energierow.com.		 IN CNAME	 energierow.com.

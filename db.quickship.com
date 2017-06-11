@@ -10,8 +10,8 @@ $TTL	86400
 			10800 )	; Minimum
 
 @	 		IN NS	 ns.quickshipcellular.com.
-ns			IN A	 104.131.56.122
+ns			IN A	 108.210.135.156
 @                       IN NS    ns1.dadesigners.com.
 @                       IN NS    ns2.dadesigners.com.
-@	 		IN A	 104.236.51.134
+@	 		IN A	 108.210.135.155
 www		 	IN CNAME quickshipcellular.com.

@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 ainproductions.com.		 	IN NS	 ns.ainproductions.com.
-ns.ainproductions.com.		IN A	 104.131.56.122
+ns.ainproductions.com.		IN A	 108.210.135.156
 ainproductions.com.			IN A	 74.208.231.34
 webmail.ainproductions.com.	IN A	 74.208.231.34
 mail.ainproductions.com.	IN A	 74.208.231.34

@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 thezspa.com.		 	 IN NS	 ns.thezspa.com.
-ns.thezspa.com.		 	 IN A	 104.131.56.122
+ns.thezspa.com.		 	 IN A	 108.210.135.156
 thezspa.com.		 	 IN A	 74.208.231.34
 webmail.thezspa.com.		 IN A	 74.208.231.34
 mail.thezspa.com.		 IN A	 74.208.231.34

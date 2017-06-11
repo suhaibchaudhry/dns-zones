@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 divajewelryplus.com.		 	IN NS	 ns.divajewelryplus.com.
-ns.divajewelryplus.com.		 	IN A	 104.131.56.122
+ns.divajewelryplus.com.		 	IN A	 108.210.135.156
 divajewelryplus.com.		 	IN A	 74.208.231.34
 webmail.divajewelryplus.com.	IN A	 74.208.231.34
 mail.divajewelryplus.com.		IN A	 74.208.231.34

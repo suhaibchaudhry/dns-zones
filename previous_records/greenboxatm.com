@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 greenboxatm.com.		 	IN NS	 ns.greenboxatm.com.
-ns.greenboxatm.com.		 	IN A	 104.131.56.122
+ns.greenboxatm.com.		 	IN A	 108.210.135.156
 greenboxatm.com.		 	IN A	 74.208.231.34
 webmail.greenboxatm.com.	IN A	 74.208.231.34
 mail.greenboxatm.com.		IN A	 74.208.231.34

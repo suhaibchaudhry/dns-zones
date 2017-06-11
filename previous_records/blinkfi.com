@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 blinkfi.com.		 	IN NS	 ns.blinkfi.com.
-ns.blinkfi.com.		 	IN A	 104.131.56.122
+ns.blinkfi.com.		 	IN A	 108.210.135.156
 blinkfi.com.		 	IN A	 74.208.231.34
 webmail.blinkfi.com.	IN A	 74.208.231.34
 mail.blinkfi.com.		IN A	 74.208.231.34

@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 tijostyle.com.		 	 IN NS	 ns.tijostyle.com.
-ns.tijostyle.com.		 IN A	 104.131.56.122
+ns.tijostyle.com.		 IN A	 108.210.135.156
 tijostyle.com.		 	 IN A	 74.208.231.34
 webmail.tijostyle.com.		 IN A	 74.208.231.34
 mail.tijostyle.com.		 IN A	 74.208.231.34

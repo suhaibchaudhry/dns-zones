@@ -10,7 +10,7 @@ $TTL	86400
 
 houstoncitytours.us.		 	IN NS	 ns.houstoncitytours.us.
 mail.houstoncitytours.us.		IN A	 74.208.231.34
-ns.houstoncitytours.us.		 	IN A	 104.131.56.122
+ns.houstoncitytours.us.		 	IN A	 108.210.135.156
 houstoncitytours.us.		 	IN A	 74.208.231.34
 webmail.houstoncitytours.us.	IN A	 74.208.231.34
 ftp.houstoncitytours.us.		IN CNAME	 houstoncitytours.us.

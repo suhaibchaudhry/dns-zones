@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 bz-grill.com.		 	IN NS	 ns.bz-grill.com.
-ns.bz-grill.com.		IN A	 104.131.56.122
+ns.bz-grill.com.		IN A	 108.210.135.156
 bz-grill.com.		 	IN A	 74.208.231.34
 webmail.bz-grill.com.	IN A	 74.208.231.34
 mail.bz-grill.com.		IN A	 74.208.231.34

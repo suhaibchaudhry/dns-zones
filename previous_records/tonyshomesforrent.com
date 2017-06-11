@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 tonyshomesforrent.com.		 	 IN NS	 ns.tonyshomesforrent.com.
-ns.tonyshomesforrent.com.		 IN A	 104.131.56.122
+ns.tonyshomesforrent.com.		 IN A	 108.210.135.156
 tonyshomesforrent.com.		 	 IN A	 74.208.243.61
 webmail.tonyshomesforrent.com.		 IN A	 74.208.243.61
 mail.tonyshomesforrent.com.		 IN A	 74.208.243.61

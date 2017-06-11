@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 abouttrading.com.		 		IN NS	 ns.abouttrading.com.
-ns.abouttrading.com.			IN A	 104.131.56.122
+ns.abouttrading.com.			IN A	 108.210.135.156
 abouttrading.com.		 		IN A	 74.208.231.34
 webmail.abouttrading.com.		IN A	 74.208.231.34
 mail.abouttrading.com.			IN A	 74.208.231.34

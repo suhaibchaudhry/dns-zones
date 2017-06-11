@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 meem2.com.		 		IN NS	 ns.meem2.com.
-ns.meem2.com.		 	IN A	 104.131.56.122
+ns.meem2.com.		 	IN A	 108.210.135.156
 meem2.com.		 		IN A	 198.71.54.232
 webmail.meem2.com.		IN A	 198.71.54.232
 mail.meem2.com.		 	IN A	 198.71.54.232

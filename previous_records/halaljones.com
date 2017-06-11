@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 halaljones.com.		 		IN NS	 ns.halaljones.com.
-ns.halaljones.com.			IN A	 104.131.56.122
+ns.halaljones.com.			IN A	 108.210.135.156
 halaljones.com.		 		IN A	 74.208.231.34
 webmail.halaljones.com.		IN A	 74.208.231.34
 mail.halaljones.com.		IN A	 74.208.231.34

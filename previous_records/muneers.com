@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 muneers.com.		 	IN NS	 ns.muneers.com.
-ns.muneers.com.		 	IN A	 104.131.56.122
+ns.muneers.com.		 	IN A	 108.210.135.156
 muneers.com.			IN A	 74.208.231.34
 webmail.muneers.com.	IN A	 74.208.231.34
 mail.muneers.com.		IN A	 74.208.231.34

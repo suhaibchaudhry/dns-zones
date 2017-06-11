@@ -9,10 +9,10 @@ $TTL	86400
 			10800 )	; Minimum
 
 carepointus.com.		 	IN NS	 ns.carepointus.com.
-ns.carepointus.com.		 	IN A	 104.131.56.122
+ns.carepointus.com.		 	IN A	 108.210.135.156
 webmail.carepointus.com. 	IN A	 74.208.231.34
 mail.carepointus.com.		IN A	 74.208.231.34
-carepointus.com.		 	IN A	 104.236.51.134
+carepointus.com.		 	IN A	 108.210.135.155
 ftp.carepointus.com.		IN CNAME	 carepointus.com.
 www.carepointus.com.		IN CNAME	 carepointus.com.
 carepointus.com.		 	IN MX 10 	 mail.carepointus.com.

@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 wemaintainwebsites.com.		 IN NS	 ns.wemaintainwebsites.com.
-ns.wemaintainwebsites.com.	 IN A	 104.131.56.122
+ns.wemaintainwebsites.com.	 IN A	 108.210.135.156
 wemaintainwebsites.com.		 IN A	 74.208.231.34
 webmail.wemaintainwebsites.com.	 IN A	 74.208.231.34
 mail.wemaintainwebsites.com.	 IN A	 74.208.231.34

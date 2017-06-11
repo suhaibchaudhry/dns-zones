@@ -9,7 +9,7 @@ $TTL	86400
 			10800 )	; Minimum
 
 newlife4d.com.		 		IN NS	 ns.newlife4d.com.
-ns.newlife4d.com.			IN A	 104.131.56.122
+ns.newlife4d.com.			IN A	 108.210.135.156
 newlife4d.com.		 		IN A	 74.208.231.34
 webmail.newlife4d.com.		IN A	 74.208.231.34
 mail.newlife4d.com.			IN A	 74.208.231.34

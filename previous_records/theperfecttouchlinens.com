@@ -9,8 +9,8 @@ $TTL	86400
 			10800 )	; Minimum
 
 theperfecttouchlinens.com.		 IN NS	 ns.theperfecttouchlinens.com.
-ns.theperfecttouchlinens.com.		 IN A	 104.131.56.122
-theperfecttouchlinens.com.		 IN A	 104.236.51.134
+ns.theperfecttouchlinens.com.		 IN A	 108.210.135.156
+theperfecttouchlinens.com.		 IN A	 108.210.135.155
 webmail.theperfecttouchlinens.com.	 IN A	 69.175.99.245
 mail.theperfecttouchlinens.com.		 IN A	 69.175.99.245
 ftp.theperfecttouchlinens.com.		 IN CNAME theperfecttouchlinens.com.

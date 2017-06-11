@@ -9,8 +9,8 @@ $TTL	86400
 			10800 )	; Minimum
 
 moodygallery.com.		 	IN NS	 ns.moodygallery.com.
-ns.moodygallery.com.		IN A	 104.131.56.122
-moodygallery.com.		 	IN A	 104.236.51.134
+ns.moodygallery.com.		IN A	 108.210.135.156
+moodygallery.com.		 	IN A	 108.210.135.155
 ftp.moodygallery.com.	 	IN CNAME	 moodygallery.com.
 www.moodygallery.com.	 	IN CNAME	 moodygallery.com.
 moodygallery.com.		 	IN MX	10 mx1c45.carrierzone.com.

@@ -9,8 +9,8 @@ $TTL	86400
 			10800 )	; Minimum
 
 unlockbazaar.com.		 IN NS	 ns.unlockbazaar.com.
-ns.unlockbazaar.com.		 IN A	 104.131.56.122
-unlockbazaar.com.		 IN A	 104.236.51.134
+ns.unlockbazaar.com.		 IN A	 108.210.135.156
+unlockbazaar.com.		 IN A	 108.210.135.155
 webmail.unlockbazaar.com.	 IN A	 74.208.231.34
 mail.unlockbazaar.com.		 IN A	 74.208.231.34
 ftp.unlockbazaar.com.		 IN CNAME	 unlockbazaar.com.
