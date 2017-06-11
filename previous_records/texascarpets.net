@@ -10,6 +10,8 @@ $TTL	86400
 
 texascarpets.net.		 IN NS	 ns1.dadesigners.com.
 texascarpets.net.                IN NS   ns2.dadesigners.com.
+ns.texascarpets.net.                IN NS   ns2.dadesigners.com.
+ns.texascaroets.net.		 IN A    108.210.135.156
 ns1.dadesigners.com.		 IN A	 108.210.135.156
 ns2.dadesigners.com.             IN A    108.210.135.155
 webmail.texascarpets.net.	 IN A	 74.208.231.34
