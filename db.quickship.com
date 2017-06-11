@@ -3,7 +3,7 @@ $ORIGIN quickshipcellular.com.
 $TTL	86400
 
 @	IN	SOA	ns.quickshipcellular.com. asad.dadesigners.com. (
-			1369999099	;AUTO_INCREMENT
+			1497164496	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire

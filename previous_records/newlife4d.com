@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.newlife4d.com. asadpakistani.gmail.com. (
-			1312323479	;AUTO_INCREMENT
+			1497164496	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire
