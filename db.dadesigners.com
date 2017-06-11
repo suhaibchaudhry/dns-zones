@@ -2,7 +2,7 @@ $ORIGIN dadesigners.com.
 $TTL 1800
 
 @		 IN   SOA ns1.digitalocean.com. hostmaster.dadesigners.com. (
-		  	 1497174527  ;AUTO_INCREMENT
+		  	 1497175832  ;AUTO_INCREMENT
 			 10800	     ; Refresh
 			 3600	     ; Retry
 			 604800      ; Expire
