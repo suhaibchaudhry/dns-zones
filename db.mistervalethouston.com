@@ -2,7 +2,7 @@ $ORIGIN mistervalethouston.com.
 $TTL 1800
 
 @		 IN   SOA ns1 postmaster.dadesigners.com. (
-		  	 1497231782 	   	;AUTO_INCREMENT
+		  	 1497232884 	   	;AUTO_INCREMENT
 			 604800	   	; Refresh
 			 86400	   	; Retry
 			 2419200   	; Expire
