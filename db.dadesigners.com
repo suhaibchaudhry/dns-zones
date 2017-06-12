@@ -2,7 +2,7 @@ $ORIGIN dadesigners.com.
 $TTL 1800
 
 @		 IN   SOA ns1.dadesigners.com. hostmaster.dadesigners.com. (
-		  	 1497230570  ;AUTO_INCREMENT
+		  	 1497231782  ;AUTO_INCREMENT
 			 10800	     ; Refresh
 			 3600	     ; Retry
 			 604800      ; Expire
@@ -13,7 +13,7 @@ $TTL 1800
 @		 IN   NS damon.ns.cloudflare.com.
 @		 IN   NS mona.ns.cloudflare.com.
 
-@		 IN   A 108.210.135.155
+@		 IN   A 108.210.135.154
 ns1 		 IN   A 108.210.135.156
 ns2 		 IN   A 108.210.135.155
 
