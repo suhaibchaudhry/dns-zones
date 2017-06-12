@@ -2,7 +2,7 @@
 $TTL	86400
 
 @	IN	SOA	ns.houstoncitytours.us. houstoncitytours.gmail.com. (
-			1497176505	;AUTO_INCREMENT
+			1497230570	;AUTO_INCREMENT
 			10800	; Refresh
 			3600	; Retry
 			604800	; Expire
